@@ -6,7 +6,6 @@
     font-family: 'signpainter';
     src: url("../font/Sign\ Painter\ Regular.ttf");
 }
-
 .signpainter{
     font-family: 'signpainter';
 }
@@ -17,7 +16,7 @@
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #222222;
 }
 .plus-holder {
 	position: absolute;
@@ -46,6 +45,12 @@ a{
 }
 .blogs .card:hover a {
 	color: white !important;
+}
+.currency-design{
+	border: 1px solid #ffffff70;
+	color: #fff;
+	box-shadow: 5px 5px 10px #0000003d;
+	padding-right: 3px;
 }
 option{
 	color: black !important;
@@ -94,7 +99,7 @@ option{
     transition: 0.4s;
 }
 .bg-danger{
-    background-color: #CB0A07 !important;
+    background-color: #E10000 !important;
 }
 .text-danger{
     color: #CB0A07 !important;
@@ -102,6 +107,9 @@ option{
 .btn-danger{
     background-color: #CB0A07 !important;
     border-color: #CB0A07 !important;
+}
+.red-bg{
+	background-color: #E10000 !important;
 }
 .cornder-cropped{
     clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%, 0 40%);
@@ -119,7 +127,7 @@ option{
 }
 .line{
     height: 3px;
-    background-color: #CB0A07;
+    background-color: #FF001A;
 }
 .source{
     font-family: 'Source Sans Pro', sans-serif;
@@ -183,12 +191,16 @@ select.border-0.bg-transparent {
 p{
     font-family: 'Source Serif Pro', serif !important;
 }
+.card-body-bg{
+	background-color: #F6F7F7;
+}
 .slick-dots {
 	display: none !important;
 }
-.section.py-2.bg-danger {
+.section.py-2 {
 	z-index: 1000;
 	position: relative !important;
+	background-color: #CB0A07;
 }
 .right label {
 	display: flex;
@@ -299,7 +311,7 @@ p{
 .nav-link{
     font-size: 18px;
     font-weight: bold;
-    color: black !important;
+    color: #292826 !important;
     margin-left: 15px;
 }
 .hero-slider-pt-1 {
@@ -334,6 +346,21 @@ border: unset;}
 	border: unset !important;
 	box-shadow: 0 4px 5px rgba(0,0,0,0.1);
 	width: 65%;
+}
+.header-op-btn{
+	color: #292826;
+}
+.header-op-btn:hover span{
+	display: inline-block;
+	transition: .3s all ease-in-out;
+	color: #E10000;
+	transform: scale(1.1);
+}
+.header-op-btn:hover span i{
+	color: #E10000!important;
+}
+.header-op-btn:hover .mid-ash{
+	color: #E10000;
 }
 a:hover{
 	text-decoration: none !important;
@@ -543,7 +570,7 @@ td.vam{
 	color: #fff !important;
 }
 .bigBtn span{
-	color: #000 !important;
+	color: #292826 !important;
 }
 @media screen and (min-width: 1200px){
 	.options {
@@ -686,11 +713,11 @@ td.vam{
         padding-bottom: 0 !important;
         background: white;
     }
-    .section.py-2.bg-danger .flx {
+    .section.py-2 .flx {
         flex-direction: column;
         text-align: center;
     }
-	.section.py-2.bg-danger p, .section.py-2.bg-danger select, .section.py-2.bg-danger label {
+	.section.py-2 p, .section.py-2 select, .section.py-2 label {
 		font-size: 10px !important;
 		text-align: left !important;
 	}
@@ -896,4 +923,40 @@ td.vam{
 		font-size: 7px!important;
 		padding: 0!important;
 	}
+}
+
+/* common class for color */
+.dark-red{
+	color: #CB0A07!important;
+}
+.dark-red-bg{
+	background-color: #CB0A07!important;
+}
+.red{
+	color: #E10000!important;
+}
+.pink{
+	color: #FF001A!important;
+}
+.pink-bg{
+	background-color: #FF001A!important;
+}
+.dark-pink{
+	color: #EA2C2D!important;
+}
+.dark-ash{
+	color: #292826!important;
+}
+.mid-ash{
+	color: #666666!important;
+	font-size: 15px;
+}
+.light-ash{
+	color: #8E8A83!important;
+}
+.dark-black{
+	color: #222222!important;
+}
+.product-bg{
+	background-color: #F6F7F7!important;
 }
