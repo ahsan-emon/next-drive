@@ -1,0 +1,316 @@
+.DeskBtn{
+    border: 4px solid lightgray!important;
+}
+
+.gavelFont{
+    font-size: 50px;
+}
+
+
+.subscribe-btn{
+    background-color: #BA0202;
+    border: 1px solid #BA0202;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #BA0202;
+    transition: 0.4s ease-in-out all;
+    font-weight: 700;
+}
+
+.subscribe-btn:hover{
+    border-color: lightgray;
+}
+
+.foo-car a:hover{
+    text-decoration: underline!important;
+}
+
+.red-custom-bottom{
+    border-bottom: 2px solid #dc3545!important;
+}
+
+.mobileMenu{
+    opacity: 0.9;
+}
+
+#wa_img {
+    position: relative;
+}
+
+#wa_img #wpClose{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: lightgray;
+    padding: 0 4px;
+    color: black;
+    border-radius: 10%;
+}
+
+.bottomRedBorder{
+    border-bottom: 5px solid red;
+    border-top-left-radius: 5px;
+    width: 90%;
+    margin: auto;
+}
+
+.searchForUsedCar{
+    color:#000;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+
+.searchForUsedCar i{
+    color:#dc3545
+}
+
+.carSearchKeywords button{
+    font-size: 20px!important;
+}
+
+.carSearchKeywords button:hover{
+    color:#000
+}
+
+.searchForUsedCarBtn{
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #888 !important;
+    font-style: italic;
+    font-weight: 600;
+    padding: 0;
+}
+
+
+.nextBlog{
+    font-size: 30px;
+}
+
+.blogsMobile p{
+    color: #000!important
+}
+
+.faq p{
+    color: #000;
+    font-weight: 600;
+}
+
+.mobileMenu p, .mobileMenu a, .mobileMenu select, .mobileMenu label{
+    font-weight: 600;
+}
+
+.aboutCarContent p{
+    color: #000;
+}
+
+.cars-display .card .card-body p{
+    line-height: 15px;
+}
+
+.popularReqModel .fa.fa-square{
+    font-size: 8px;
+}
+
+@media screen and (min-width: 767px) {
+    .footer .social-desk{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1520px) {
+    .desktopViewStockBid .bigBtn h4{
+        font-size: 30px;
+    }
+
+    .desktopViewStockBid .bigBtn .fs-5{
+        font-size: 15px!important;
+    }
+}
+
+@media screen and (max-width:1512px) {
+    .desktopViewStockBid .bigBtn h4{
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:1390px) {
+    .desktopViewStockBid .bigBtn h4{
+        font-size: 25px;
+    }
+    .desktopViewStockBid .bigBtn .fs-5{
+        font-size: 13px!important;
+    }
+
+    .desktopViewStockBid .flx img{
+        max-width: 30px;
+        max-height: 25px;
+    }
+
+    .desktopViewStockBid .flx .fa.fa-angle-right{
+        font-size: 13px!important;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media screen and (max-width:1171px) {
+    .desktopViewStockBid .gavelFont{
+        font-size: 20px!important;
+    }
+}
+
+@media screen and (max-width:1284px) {
+    .desktopViewStockBid .bigBtn h4{
+        font-size: 22px!important;
+    }
+
+    .gavelFont{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1270px) {
+    .desktopViewStockBid .bigBtn .fs-5{
+        font-size: 11px!important;
+    }
+}
+
+@media screen and (max-width:1248px) {
+    .desktopViewStockBid .bigBtn h4{
+        font-size: 18px!important;
+    }
+}
+
+@media screen and (max-width:1339px) {
+    .desktopViewStockBid .bigBtn h4{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1111px) {
+    .desktopViewStockBid .bigBtn h4{
+        font-size: 16px!important;
+    }
+    .desktopViewStockBid .bigBtn .fs-5{
+        font-size: 10px!important;
+    }
+}
+
+@media screen and (max-width:1078px) {
+    .desktopViewStockBid .bigBtn h4{
+        font-size: 15px!important;
+    }
+    .desktopViewStockBid .bigBtn .fs-5{
+        font-size: 8px!important;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .desktopViewStockBid .flx img{
+       max-width: 20px;
+       max-height: 25px;
+    }
+
+    .desktopViewStockBid .bigBtn h4{
+        font-size: 12px!important;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .searchForUsedCar{
+        font-size: 20px;
+    }
+    .carSearchKeywords button {
+        font-size: 16px !important;
+      }
+}
+
+
+@media screen and (max-width:489px) {
+    .cl-py .searchForUsedCar{
+        font-size: 18px;
+    }
+    .cl-py.py-4{
+        padding: 0.8rem 0 !important;
+    }
+
+}
+
+@media screen and (max-width:449px) {
+    .cl-py .searchForUsedCar{
+        font-size: 16px;
+    }
+    .carSearchKeywords button {
+        font-size: 10px !important;
+      }
+}
+
+@media screen and (max-width:408px) {
+    .cl-py .searchForUsedCarLong{
+        font-size: 14px;
+        margin: 5px 0!important;
+    }
+}
+
+@media screen and (max-width:368px) {
+    .cl-py .searchForUsedCarLong{
+        font-size: 12px;
+    }
+    .carSearchKeywords button {
+        font-size: 9px !important;
+      }
+}
+
+@media screen and (max-width:328px) {
+    .searchForUsedCarLong{
+        font-size: 10px!important;
+    }
+}
+
+@media screen and (max-width:288px) {
+    .cl-py .searchForUsedCar{
+        font-size: 8px;
+    }
+    .carSearchKeywords button {
+        font-size: 8px !important;
+      }
+}
+
+@media screen and (max-width: 992px) {
+    .header-tops{
+        padding: 0!important;
+    }
+    .currency-codes{
+        display: none;
+    }
+
+    .desktopViewStockBid{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    .bottomRedBorder{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1519px){
+    .row.crbtns {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .row.crbtns {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .row.crbtns {
+        height: 100px;
+    }
+}
