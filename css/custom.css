@@ -130,7 +130,7 @@
 
 @media screen and (max-width:1512px) {
     .desktopViewStockBid .bigBtn h4{
-        font-size: 28px;
+        font-size: 25px;
     }
 }
 
@@ -157,6 +157,12 @@
 @media screen and (max-width:1171px) {
     .desktopViewStockBid .gavelFont{
         font-size: 20px!important;
+    }
+    .header-op-btn {
+        font-size: 14px!important;
+    }
+    .header-op-btn span i {
+        font-size: 14px!important;
     }
 }
 
