@@ -305,13 +305,13 @@
 
 @media screen and (max-width: 1519px){
     .row.crbtns {
-        height: 450px;
+        height: 490px;
     }
 }
 
 @media screen and (max-width: 992px){
     .row.crbtns {
-        height: 500px;
+        height: 580px;
     }
     .table-border {
         border: none!important;
@@ -324,5 +324,11 @@
 @media screen and (max-width: 767px){
     .row.crbtns {
         height: 100px;
+    }
+    .hide-mobile{
+        display: none;
+    }
+    .show-mobile{
+        display: block;
     }
 }

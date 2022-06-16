@@ -1267,3 +1267,12 @@ td.vam {
 .top-margin{
 	margin-top: 30px!important;
 }
+.maron-red{
+	background-color: #C20A07!important;
+}
+.hide-mobile{
+	display: block;
+}
+.show-mobile{
+	display: none;
+}
