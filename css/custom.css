@@ -313,6 +313,12 @@
     .row.crbtns {
         height: 500px;
     }
+    .table-border {
+        border: none!important;
+    }
+    .border{
+        border: 1px solid #D6D6D6!important;
+    }
 }
 
 @media screen and (max-width: 767px){
