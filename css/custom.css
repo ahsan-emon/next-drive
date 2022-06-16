@@ -48,8 +48,8 @@
 }
 
 .bottomRedBorder{
-    border-bottom: 5px solid red;
-    border-top-left-radius: 5px;
+    /* border-bottom: 5px solid red; */
+    /* border-top-left-radius: 5px; */
     width: 90%;
     margin: auto;
 }
@@ -331,4 +331,9 @@
     .show-mobile{
         display: block;
     }
+}
+.bottom-border{
+    border-bottom: 5px solid red; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }

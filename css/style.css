@@ -358,16 +358,12 @@ p {
 	position: absolute;
 	bottom: 0;
 	z-index: 100;
-	background: white;
 	left: 50%;
 	transform: translateX(-50%);
-	height: 50px;
 }
 
 .btns button {
-	padding-left: 20px !important;
-	padding-right: 20px !important;
-	width: 273.5px;
+	padding: 20px 20px !important;
 }
 
 .btn {
@@ -1266,6 +1262,9 @@ td.vam {
 }
 .top-margin{
 	margin-top: 30px!important;
+}
+.top-big-margin{
+	margin-top: 50px!important;
 }
 .maron-red{
 	background-color: #C20A07!important;
