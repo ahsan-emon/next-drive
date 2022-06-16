@@ -394,7 +394,7 @@ img{
 	transition: 0.5s;
 }
 .carBtn.active, .carBtn:hover{
-	border: 4px solid red;
+	border: 2px solid #FF001A;
 }
 
 .row.crbtns {
@@ -963,6 +963,25 @@ td.vam{
 .height-space1{
 	margin-top: 20px!important;
 }
+.height-space3{
+	margin-top: 40px!important;
+}
 .height-space2{
 	margin-top: 70px!important;
+}
+.low-pink-bg{
+	background-color: #EB4542!important;
+}
+.border-color{
+	border-color: #FF001A!important;
+}
+.ask-for-price-btn{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fc061c+1,f31824+49,ed2229+51,ce0d0b+100 */
+background: #fc061c; /* Old browsers */
+background: -moz-linear-gradient(left,  #fc061c 1%, #f31824 49%, #ed2229 51%, #ce0d0b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #fc061c 1%,#f31824 49%,#ed2229 51%,#ce0d0b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #fc061c 1%,#f31824 49%,#ed2229 51%,#ce0d0b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc061c', endColorstr='#ce0d0b',GradientType=1 ); /* IE6-9 */
+
+	border-radius: 5px;
 }
