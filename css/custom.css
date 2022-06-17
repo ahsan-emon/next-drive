@@ -17,11 +17,53 @@
 .blogsMobile p { color: rgb(0, 0, 0) !important; }
 .faq p { color: rgb(0, 0, 0); font-weight: 600; }
 .mobileMenu p, .mobileMenu a, .mobileMenu select, .mobileMenu label { font-weight: 600; }
-.aboutCarContent p { color: rgb(0, 0, 0); }
+.aboutCarContent p {color: rgb(0, 0, 0);padding-right: 100px;}
 .cars-display .card .card-body p { line-height: 15px; }
 .popularReqModel .fa.fa-square { font-size: 8px; }
 @media screen and (min-width: 767px) {
   .footer .social-desk { display: none; }
+}
+@media screen and (max-width: 2560px) {
+  .row.crbtns { height: 1220px; }
+} 
+@media screen and (max-width: 2400px) {
+  .row.crbtns { height: 1150px; }
+} 
+@media screen and (max-width: 2100px) {
+  .row.crbtns { height: 985px; }
+} 
+@media screen and (max-width: 2050px) {
+  .row.crbtns { height: 965px; }
+} 
+@media screen and (max-width: 2000px) {
+  .row.crbtns { height: 940px; }
+} 
+@media screen and (max-width: 1950px) {
+  .row.crbtns { height: 915px; }
+}
+@media screen and (max-width: 1900px) {
+  .row.crbtns { height: 890px; }
+}
+@media screen and (max-width: 1850px) {
+  .row.crbtns { height: 865px; }
+}
+@media screen and (max-width: 1800px) {
+  .row.crbtns { height: 840px; }
+}
+@media screen and (max-width: 1750px) {
+  .row.crbtns { height: 820px; }
+} 
+@media screen and (max-width: 1700px) {
+  .row.crbtns { height: 790px; }
+} 
+@media screen and (max-width: 1650px) {
+  .row.crbtns { height: 765px; }
+} 
+@media screen and (max-width: 1600px) {
+  .row.crbtns { height: 740px; }
+}
+@media screen and (max-width: 1550px) {
+  .row.crbtns { height: 720px; }
 }
 @media screen and (max-width: 1520px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 30px; }
@@ -84,6 +126,9 @@
   .desktopViewStockBid .flx img { max-width: 20px; max-height: 25px; }
   .desktopViewStockBid .bigBtn h4 { font-size: 12px !important; }
   .row.crbtns { height: 520px; }
+  .aboutCarContent p {
+    padding-right: 0px;
+  }
 }
 @media screen and (max-width: 1040px) {
   .row.crbtns { height: 490px; }
@@ -126,6 +171,30 @@
   .row.crbtns { height: 580px; }
   .table-border { border: none !important; }
   .border { border: 1px solid rgb(214, 214, 214) !important; }
+}
+@media screen and (max-width: 880px) {
+  .row.crbtns { height: 570px; }
+}
+@media screen and (max-width: 860px) {
+  .row.crbtns { height: 560px; }
+}
+@media screen and (max-width: 850px) {
+  .row.crbtns { height: 555px; }
+}
+@media screen and (max-width: 840px) {
+  .row.crbtns { height: 545px; }
+}
+@media screen and (max-width: 820px) {
+  .row.crbtns { height: 540px; }
+}
+@media screen and (max-width: 800px) {
+  .row.crbtns { height: 530px; }
+}
+@media screen and (max-width: 790px) {
+  .row.crbtns { height: 525px; }
+}
+@media screen and (max-width: 780px) {
+  .row.crbtns { height: 530px; }
 }
 @media screen and (max-width: 767px) {
   .row.crbtns { height: 100px; }

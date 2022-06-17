@@ -292,15 +292,16 @@ p {
 .btn-group .btn {
 	/* border-top: 1px solid #707070; */
 	/* border-bottom: 1px solid #707070; */
-	padding: 10px 40px;
+	padding: 18px 40px;
 	position: relative;
+	font-weight: 700;
 }
 
 .btn.fs-20 .line {
 	height: 100%;
 	width: 1px;
 	position: absolute;
-	background: #707070;
+	background: #DFDDD7;
 	top: 0;
 	right: 0;
 	transform: rotate(-15deg) scale(1.1);
@@ -327,7 +328,7 @@ p {
 	/* padding: 10px 85px; */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	height: 50px;
+	height: 40px;
 	width: 500px;
 	justify-content: space-around;
 	align-items: center;
@@ -416,14 +417,14 @@ p {
 
 .btns {
 	position: absolute;
-	bottom: 50px;
+	bottom: 34px;
 	z-index: 100;
 	background: white;
 	left: 50%;
 	transform: translateX(-50%);
-	height: 50px;
+	height: 66px;
 	border: unset !important;
-	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 1px 4px #e0ded8;
 	width: 65%;
 }
 
@@ -477,8 +478,9 @@ img {
 }
 
 .tags.bg-danger.text-dark.p-2.d-inline-block.text-danger {
-	background: rgba(255, 0, 0, 0.2) !important;
+	background: #FCE5E5 !important;
 	font-size: 18px;
+	border-radius: 7px;
 }
 
 .detTable td:nth-child(2n) {
@@ -1214,6 +1216,11 @@ td.vam {
 .input-padding{
 	padding: 15px 5px 10px 10px !important;
 }
+.input-padding::placeholder{
+	color: #8E8A83;
+	font-weight: 100!important;
+	font-size: 15px;
+}
 .height-space2 {
 	margin-top: 70px !important;
 }
@@ -1246,7 +1253,7 @@ td.vam {
 	font-weight: 600!important;
 }
 .top-margin{
-	margin-top: 30px!important;
+	margin-top: -80px!important;
 }
 .top-big-margin{
 	margin-top: 50px!important;
