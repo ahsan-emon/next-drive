@@ -416,7 +416,7 @@ p {
 
 .btns {
 	position: absolute;
-	bottom: 52px;
+	bottom: 50px;
 	z-index: 100;
 	background: white;
 	left: 50%;
@@ -1277,10 +1277,6 @@ td.vam {
 	color: #E10000;
 	transform: scale(1.1);
 }
-/* .header-op-btn:hover{
-	background-color: #FAEBEA;
-} */
-
 .header-op-btn:hover span i {
 	color: #E10000 !important;
 }
@@ -1288,11 +1284,6 @@ td.vam {
 .header-op-btn:hover .mid-ash {
 	color: #E10000;
 }
-/* .header-search-btn{
-	padding: 14px 40px !important;
-	border: 0;
-	transform: skewX(20deg);
-} */
 .btn-outline-danger {
     border-color: #dc3545c2!important;
 }
@@ -1301,22 +1292,3 @@ td.vam {
 	color: #fff;
 	-webkit-text-stroke: 1px black;
 }
-/* .header-left-btn{
-	clip-path: polygon(0 0, 96% 0%, 100% 100%, 0% 100%);
-	position: relative;
-}
-.header-left-btn::after{
-	content: "";
-	position: absolute;
-	;
-	height: 100%;
-	width: 1px;
-	background: #707070;
-	top: 0;
-	right: 0;
-	transform: rotate(-15deg) scale(1.1);
-	z-index: 99;
-}
-.header-left-btn:hover{
-	background-color: #FAEBEA;
-} */
