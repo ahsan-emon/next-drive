@@ -130,8 +130,32 @@
     padding-right: 0px;
   }
 }
+@media screen and (max-width: 1051px) {
+  .header-op-btn span i{
+    font-size: 13px!important;
+  }
+  .header-op-btn{
+    font-size: 13px!important;
+  }
+}
 @media screen and (max-width: 1040px) {
   .row.crbtns { height: 490px; }
+}
+@media screen and (max-width: 1026px) {
+  .header-op-btn span i{
+    font-size: 12px!important;
+  }
+  .header-op-btn{
+    font-size: 12px!important;
+  }
+}
+@media screen and (max-width: 1001px) {
+  .header-op-btn span i{
+    font-size: 11px!important;
+  }
+  .header-op-btn{
+    font-size: 11px!important;
+  }
 }
 @media screen and (max-width: 570px) {
   .searchForUsedCar { font-size: 20px; }
