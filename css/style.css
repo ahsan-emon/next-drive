@@ -1216,10 +1216,12 @@ td.vam {
 .input-padding{
 	padding: 15px 5px 10px 10px !important;
 }
+.input-padding:focus{
+	box-shadow: none;
+}
 .input-padding::placeholder{
 	color: #8E8A83;
-	font-weight: 100!important;
-	font-size: 15px;
+	font-family: 'Courier New', Courier, monospace;
 }
 .height-space2 {
 	margin-top: 70px !important;
