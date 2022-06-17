@@ -1260,7 +1260,7 @@ td.vam {
 .show-mobile{
 	display: none;
 }
-.header-op-btn {
+/* .header-op-btn {
 	color: #292826;
 	padding: 14px 35px!important;
 	border: 0;
@@ -1269,17 +1269,17 @@ td.vam {
   transform: skewX(20deg);
   font-weight: 700!important;
   font-style: normal;
-  
-}
+} */
 
 .header-op-btn:hover span{
 	display: inline-block;
 	transition: .3s all ease-in-out;
 	color: #E10000;
+	transform: scale(1.1);
 }
-.header-op-btn:hover{
+/* .header-op-btn:hover{
 	background-color: #FAEBEA;
-}
+} */
 
 .header-op-btn:hover span i {
 	color: #E10000 !important;
@@ -1288,11 +1288,16 @@ td.vam {
 .header-op-btn:hover .mid-ash {
 	color: #E10000;
 }
-.header-search-btn{
+/* .header-search-btn{
 	padding: 14px 40px !important;
 	border: 0;
 	transform: skewX(20deg);
-}
+} */
 .btn-outline-danger {
     border-color: #dc3545c2!important;
+}
+.h2-design{
+	font-weight: 700;
+	color: #fff;
+	-webkit-text-stroke: 1px black!important;
 }
