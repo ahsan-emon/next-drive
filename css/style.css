@@ -1299,5 +1299,24 @@ td.vam {
 .h2-design{
 	font-weight: 700;
 	color: #fff;
-	-webkit-text-stroke: 1px black!important;
+	-webkit-text-stroke: 1px black;
 }
+/* .header-left-btn{
+	clip-path: polygon(0 0, 96% 0%, 100% 100%, 0% 100%);
+	position: relative;
+}
+.header-left-btn::after{
+	content: "";
+	position: absolute;
+	;
+	height: 100%;
+	width: 1px;
+	background: #707070;
+	top: 0;
+	right: 0;
+	transform: rotate(-15deg) scale(1.1);
+	z-index: 99;
+}
+.header-left-btn:hover{
+	background-color: #FAEBEA;
+} */
