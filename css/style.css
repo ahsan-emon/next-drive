@@ -1230,20 +1230,15 @@ td.vam {
 }
 
 .ask-for-price-btn {
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fc061c+1,f31824+49,ed2229+51,ce0d0b+100 */
-	background: #fc061c;
-	/* Old browsers */
-	background: -moz-linear-gradient(left, #fc061c 1%, #f31824 49%, #ed2229 51%, #ce0d0b 100%);
-	/* FF3.6-15 */
-	background: -webkit-linear-gradient(left, #fc061c 1%, #f31824 49%, #ed2229 51%, #ce0d0b 100%);
-	/* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right, #fc061c 1%, #f31824 49%, #ed2229 51%, #ce0d0b 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fc061c', endColorstr='#ce0d0b', GradientType=1);
-	/* IE6-9 */
 	padding: 10px 30px!important;
-
 	border-radius: 5px;
+}
+.desktop-site-btn {
+	background-color: #C20A07;
+	padding: 10px 30px!important;
+	border-radius: 15px;
+	width: 90%;
 }
 .get-qoute{
 	font-size: 20px!important;
@@ -1312,7 +1307,13 @@ td.vam {
     color: white!important;
     border: 2px solid #C20A07!important;
     border-radius: 3px!important;
-    font-size: 16px!important!important;
+    font-size: 16px!important;
     font-weight: 700!important;
     margin-bottom: 10px!important;
+}
+.desktop-bold{
+	font-weight: 700!important;
+}
+.top-margin-minus{
+	margin-top: -80px!important;
 }
