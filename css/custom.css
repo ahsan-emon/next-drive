@@ -232,6 +232,13 @@
     padding-top: 0!important;
     padding-bottom: 0!important;
   }
+  .mobile-banner-design{
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+  .mobile-banner-design .container-fluid{
+    padding: 5px 0!important;
+  }
 
 }
 @media screen and (max-width: 980px) {
