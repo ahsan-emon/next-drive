@@ -196,6 +196,9 @@
   .row.crbtns {
     width: auto;
   }
+  .signup.signup-content img {
+    width: 42% !important;
+  }
   .height-space2 {
     margin-top: 10px !important;
   }
@@ -246,6 +249,9 @@
 @media screen and (max-width: 767px) {
   .row.crbtns { height: 150px; }
   .aboutCarContent p {margin-right: 0px;}
+  .signup.signup-content img {
+    width: 57% !important;
+}
 }
 @media screen and (max-width: 740px) {
   .row.crbtns { height: 140px; }
@@ -261,7 +267,7 @@
 }
 @media screen and (max-width: 576px) {
   .input-padding::placeholder {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 570px) {
@@ -273,7 +279,7 @@
 }
 @media screen and (max-width: 520px) {
   .input-padding {
-    padding: 15px 5px 10px 5px !important;
+    padding: 15px 10px 10px 5px !important;
   }
   .subscribe-btn{
     font-size: 12px;
@@ -283,27 +289,52 @@
   .cl-py .searchForUsedCar { font-size: 18px; }
   .cl-py.py-4 { padding: 0.8rem 0px !important; }
   .row.crbtns { height: 90px; }
+  .signup.signup-content img {
+    width: 60% !important;
+}
+@media screen and (max-width: 475px) {
+  .signup.signup-content img {
+    width: 65% !important;
+  }
 }
 @media screen and (max-width: 449px) {
   .cl-py .searchForUsedCar { font-size: 16px; }
   .carSearchKeywords button { font-size: 14px !important; }
   .row.crbtns { height: 80px; }
+  .signup.signup-content img {
+    width: 70% !important;
+  }
 }
 @media screen and (max-width: 408px) {
   .cl-py .searchForUsedCarLong { font-size: 14px; margin: 5px 0px !important; }
+  .signup.signup-content img {
+    width: 75% !important;
+  }
 }
 @media screen and (max-width: 385px) {
   .row.crbtns { height: 70px; }
+  .signup.signup-content img {
+    width: 80% !important;
+  }
 }
 @media screen and (max-width: 368px) {
   .cl-py .searchForUsedCarLong { font-size: 12px; }
   .carSearchKeywords button { font-size: 12px !important; }
+  .signup.signup-content img {
+    width: 83% !important;
+  }
 }
 @media screen and (max-width: 340px) {
   .row.crbtns { height: 60px; }
+  .signup.signup-content img {
+    width: 88% !important;
+  }
 }
 @media screen and (max-width: 328px) {
   .searchForUsedCarLong { font-size: 10px !important; }
+  .signup.signup-content img {
+    width: 90% !important;
+  }
 }
 @media screen and (max-width: 288px) {
   .cl-py .searchForUsedCar { font-size: 8px; }

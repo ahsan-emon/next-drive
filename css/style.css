@@ -1004,7 +1004,7 @@ td.vam {
 	}
 
 	.signup.signup-content img {
-		width: 60% !important;
+		width: 80% !important;
 		height: auto !important;
 		margin-bottom: 10px;
 	}
@@ -1423,3 +1423,17 @@ td.vam {
 .carSearchKeywords button { 
 	padding: 3px 5px!important;
  }
+ .useful-link-list a{
+	font-weight: 700;
+	font-size: 16px;
+ }
+ .useful-link-list .link-line{
+	border-bottom: 1px solid #DF2C2D;
+	margin-bottom: 5px;
+ }
+ .useful-link-list i{
+	font-size: 18px;
+ }
+ .accordion-body {
+    padding: .25rem 0.5rem!important;
+}
