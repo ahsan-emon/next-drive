@@ -1367,9 +1367,11 @@ td.vam {
 .first-accordion-item {
     background-color: #fff;
     border: 0;
-    border-top: 1px solid #85818066;
-    border-bottom: 1px solid #85818066;
+    border-top: 1px solid #85818066!important;
     border-radius: 0;
+}
+.second-accordion-item {
+	border: 0!important;
 }
 .second-accordion-item button {
     background: #DF2C2D!important;
@@ -1418,3 +1420,6 @@ td.vam {
 .footer-bg{
 	background-color: #F3F4F4;
 }
+.carSearchKeywords button { 
+	padding: 3px 5px!important;
+ }
