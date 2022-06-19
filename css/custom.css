@@ -107,23 +107,21 @@
   .desktopViewStockBid .flx img { max-width: 30px; max-height: 25px; }
   .desktopViewStockBid .flx .fa.fa-angle-right { height: 30px; width: 30px; font-size: 13px !important; }
   .row.crbtns { height: 630px; }
-  .header-op-btn { font-size: 15px !important; }
-  .header-op-btn span i { font-size: 15px !important; }
+  .header-op-btn { font-size: 13px !important; }
+  .header-op-btn span i { font-size: 13px !important; }
 }
 @media screen and (max-width: 1339px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 22px; }
   .row.crbtns { height: 610px; }
-}
-@media screen and (max-width: 1300px) {
-  .header-op-btn { font-size: 14px !important; }
-  .header-op-btn span i { font-size: 14px !important; }
+  .header-op-btn { font-size: 12px !important; }
+  .header-op-btn span i { font-size: 12px !important; }
 }
 @media screen and (max-width: 1284px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 22px !important; }
   .gavelFont { font-size: 40px; }
   .row.crbtns { height: 580px; }
-  .header-op-btn { font-size: 13px !important; }
-  .header-op-btn span i { font-size: 13px !important; }
+  .header-op-btn { font-size: 10px !important; }
+  .header-op-btn span i { font-size: 10px !important; }
 }
 @media screen and (max-width: 1270px) {
   .desktopViewStockBid .bigBtn .fs-5 { font-size: 11px !important; }
@@ -133,8 +131,6 @@
 @media screen and (max-width: 1248px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 18px !important; }
   .row.crbtns { height: 600px; }
-  .header-op-btn { font-size: 11px !important; }
-  .header-op-btn span i { font-size: 11px !important; }
 }
 @media screen and (max-width: 1200px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 18px !important; }
@@ -143,19 +139,33 @@
     font-size: 15px;
     color: #000;
   }
-  .header-op-btn { font-size: 10px !important; }
-  .header-op-btn span i { font-size: 10px !important; }
+  .header-op-btn { font-size: 14px !important; }
+  .header-op-btn span i { font-size: 14px !important; }
+}
+@media screen and (max-width: 1190px) {
+  .header-op-btn { font-size: 13px !important; }
+  .header-op-btn span i { font-size: 13px !important; }
 }
 @media screen and (max-width: 1171px) {
   .desktopViewStockBid .gavelFont { font-size: 20px !important; }
   .row.crbtns { height: 560px; }
+  .header-op-btn { font-size: 12px !important; }
+  .header-op-btn span i { font-size: 12px !important; }
+}
+@media screen and (max-width: 1140px) {
+  .header-op-btn { font-size: 11px !important; }
+  .header-op-btn span i { font-size: 11px !important; }
+}
+@media screen and (max-width: 1120px) {
+  .header-op-btn { font-size: 10px !important; }
+  .header-op-btn span i { font-size: 10px !important; }
 }
 @media screen and (max-width: 1111px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 16px !important; }
   .desktopViewStockBid .bigBtn .fs-5 { font-size: 10px !important; }
   .row.crbtns { height: 540px; }
-  .header-op-btn { font-size: 9px !important; }
-  .header-op-btn span i { font-size: 9px !important; }
+  /* .header-op-btn { font-size: 9px !important; }
+  .header-op-btn span i { font-size: 9px !important; } */
 }
 @media screen and (max-width: 1078px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 15px !important; }
