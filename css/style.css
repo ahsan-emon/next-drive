@@ -480,10 +480,11 @@ img {
 	width: 100%;
 }
 
-.tags.bg-danger.text-dark.p-2.d-inline-block.text-danger {
+.tags.bg-danger.text-dark.details.d-inline-block.text-danger {
 	background: #FCE5E5 !important;
 	font-size: 18px;
 	border-radius: 7px;
+	padding: 1px 5px;
 }
 
 .detTable td:nth-child(2n) {
@@ -838,12 +839,12 @@ td.vam {
 		font-size: 16px;
 	}
 
-	.fs-4.mt-3.src.fw-bold.mb-3 {
+	.show-mobile-car-title {
 		font-size: 13px !important;
 		font-weight: normal !important;
 	}
 
-	.tags.bg-danger.text-dark.p-2.d-inline-block.text-danger {
+	.tags.bg-danger.text-dark.details.d-inline-block.text-danger {
 		font-size: 12px;
 	}
 
@@ -878,7 +879,7 @@ td.vam {
 		padding-left: 0!important;
 		padding-right: 0!important;
 	}
-	.tags.bg-danger.text-dark.p-2.d-inline-block.text-danger {
+	.tags.bg-danger.text-dark.details.d-inline-block.text-danger {
 		font-size: 12px;
 		display: block !important;
 	}
@@ -995,15 +996,14 @@ td.vam {
 
 	.signup {
 		transform: unset;
-		margin-top: 50px;
+		margin-top: 20px;
 		/* margin-bottom: -50px; */
 	}
-
-	.signup.py-4 .flx {
+	.signup.signup-content .flx {
 		flex-direction: column;
 	}
 
-	.signup.py-4 img {
+	.signup.signup-content img {
 		width: 60% !important;
 		height: auto !important;
 		margin-bottom: 10px;
@@ -1411,4 +1411,10 @@ td.vam {
 } 
 .height-space1 {
     margin-top: 5px !important;
+}
+.car-img-design{
+	padding: 0;
+}
+.footer-bg{
+	background-color: #F3F4F4;
 }
