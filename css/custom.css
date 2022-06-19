@@ -20,7 +20,7 @@
 .blogsMobile p { color: rgb(0, 0, 0) !important; }
 .faq p { color: rgb(0, 0, 0); font-weight: 600; }
 .mobileMenu p, .mobileMenu a, .mobileMenu select, .mobileMenu label { font-weight: 600; }
-.aboutCarContent p {color: rgb(0, 0, 0);padding-right: 100px;}
+.aboutCarContent p {color: rgb(0, 0, 0); margin-right: 20px;}
 .cars-display .card .card-body p { line-height: 15px; }
 .popularReqModel .fa.fa-square { font-size: 8px; }
 @media screen and (min-width: 767px) {
@@ -28,6 +28,10 @@
 }
 @media screen and (max-width: 2560px) {
   .row.crbtns { height: 1220px; }
+  .detTable td{
+    font-size: 18px;
+    color: #000;
+  }
 } 
 @media screen and (max-width: 2400px) {
   .row.crbtns { height: 1150px; }
@@ -76,17 +80,21 @@
 @media screen and (max-width: 1512px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 25px; }
   .row.crbtns { height: 680px; }
+  .detTable td{
+    font-size: 16px;
+    color: #000;
+  }
 }
 @media screen and (max-width: 1440px ) {
   .row.crbtns { height: 660px; }
-  .options{
-    height: 30px;
+  .height-space1 {
+    margin-top: 15px !important;
   }
-  .options span{
-    font-size: 12px;
-  }
-  .options span.fs-10{
-    font-size: 8px;
+    .options span.fs-10{
+      font-size: 8px;
+    }
+    .height-space2 {
+      margin-top: 65px !important;
   }
 }
 @media screen and (max-width: 1390px) {
@@ -117,11 +125,15 @@
 @media screen and (max-width: 1200px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 18px !important; }
   .row.crbtns { height: 570px; }
+  .header-op-btn { font-size: 14px !important; }
+  .header-op-btn span i { font-size: 14px !important; }
+  .detTable td{
+    font-size: 15px;
+    color: #000;
+  }
 }
 @media screen and (max-width: 1171px) {
   .desktopViewStockBid .gavelFont { font-size: 20px !important; }
-  .header-op-btn { font-size: 14px !important; }
-  .header-op-btn span i { font-size: 14px !important; }
   .row.crbtns { height: 560px; }
 }
 @media screen and (max-width: 1111px) {

@@ -76,6 +76,7 @@ option {
 .col-md-2.sidebar ul {
 	padding: 10px !important;
 	line-height: 2;
+	padding-top: 0!important;
 }
 
 .col-md-2.sidebar ul li img {
@@ -204,9 +205,9 @@ a.text-danger:hover {
 	align-items: center;
 }
 
-.signup .img-fluid.me-3 {
-	height: 60px;
-}
+/* .signup .img-fluid.me-3 {
+	width: 20%;
+} */
 
 body,
 html {
@@ -476,6 +477,7 @@ img {
 .row.crbtns {
 	height: 700px;
 	overflow-y: scroll;
+	width: 100%;
 }
 
 .tags.bg-danger.text-dark.p-2.d-inline-block.text-danger {
@@ -694,63 +696,130 @@ td.vam {
 	color: #292826 !important;
 }
 
+@media screen and (max-width: 1100px) {
+	.options {
+		height: 30px;
+    	left: 31%;
+    	width: 280px;
+	}
+	.options span{
+		font-size: 10px;
+		letter-spacing: 0px;
+	}
+}
+@media screen and (min-width: 1100px) {
+	.options {
+		height: 30px;
+    	left: 30%;
+    	width: 300px;
+	}
+	.options span{
+		font-size: 11px;
+		letter-spacing: .5px;
+	}
+}
 @media screen and (min-width: 1200px) {
 	.options {
-		left: 38%;
+		height: 30px;
+    	left: 31%;
+    	width: 350px;
+	}
+	.options span{
+		font-size: 11px;
+		letter-spacing: 1px;
 	}
 }
-
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1350px) {
 	.options {
-		left: 37%;
+		height: 30px;
+    	left: 31%;
+    	width: 380px;
 	}
-}
-
-@media screen and (min-width: 1300px) {
-	.options {
-		left: 36%;
+	.options span{
+		font-size: 12px;
+		letter-spacing: 1.5px;
 	}
 }
 
 @media screen and (min-width: 1400px) {
 	.options {
-		left: 35%;
+		height: 30px;
+    	left: 31%;
+    	width: 400px;
+	}
+	.options span{
+		font-size: 12px;
+		letter-spacing: 1.5px;
 	}
 }
 
 @media screen and (min-width: 1500px) {
 	.options {
-		left: 34%;
+		height: 32px;
+    	left: 30%;
+    	width: 420px;
+	}
+	.options span{
+		font-size: 13px;
+		letter-spacing: 1px;
 	}
 }
 
-@media screen and (min-width: 1600px) {
+/* @media screen and (min-width: 1600px) {
 	.options {
 		left: 33%;
 	}
-}
+} */
 
 @media screen and (min-width: 1700px) {
 	.options {
 		left: 32%;
+		height: 35px;
+		width: 500px;
+	}
+	
+	.options span{
+		font-size: 14px;
+		letter-spacing: 1px;
 	}
 }
 
 @media screen and (min-width: 1800px) {
 	.options {
 		left: 31%;
+		height: 35px;
+		width: 500px;
+	}
+	
+	.options span{
+		font-size: 14px;
+		letter-spacing: 1px;
 	}
 }
 
 @media screen and (min-width: 1900px) {
 	.options {
 		left: 30%;
+		height: 35px;
+		width: 500px;
+	}
+	
+	.options span{
+		font-size: 14px;
+		letter-spacing: 1px;
 	}
 }
 
 @media screen and (min-width: 2000px) {
 	.options {
 		left: 29%;
+		height: 38px;
+		width: 500px;
+	}
+	
+	.options span{
+		font-size: 15px;
+		letter-spacing: 1px;
 	}
 }
 
@@ -1200,7 +1269,7 @@ td.vam {
 	opacity: 1;
 }
 .height-space3 {
-	margin-top: 40px !important;
+	margin-top: 20px !important;
 }
 .round-border{
 	border-top-left-radius: 15px !important;
@@ -1216,7 +1285,7 @@ td.vam {
 }
 .input-padding::placeholder{
 	color: #8E8A83;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: 'Times New Roman', Times, serif;
 }
 .height-space2 {
 	margin-top: 70px !important;
@@ -1315,5 +1384,31 @@ td.vam {
 	font-weight: 700!important;
 }
 .top-margin-minus{
-	margin-top: -80px!important;
+	margin-top: -85px!important;
+}
+.recent-post .card{
+	border-color: #8E8A83;
+	border-radius: 0;
+}
+.useful-links-margin{
+	margin-top: 80px;
+}
+.footer-menu-color a{
+	color: #000!important;
+}
+.footer-menu-color a i{
+	color: #CB0A07 !important;
+}
+.header-bar-padding{
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+.breadcrumb-margin{
+	margin-left: -12px!important;
+}
+.crbtns .p-1{
+	padding: 0.05rem !important;
+} 
+.height-space1 {
+    margin-top: 5px !important;
 }
