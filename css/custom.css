@@ -248,6 +248,11 @@
     padding: 5px 0!important;
   }
 
+  /* search car media css start  */
+  .nav-title p{
+    padding-left: 22px;
+  }
+
 }
 @media screen and (max-width: 980px) {
   .row.crbtns { height: 190px; }
@@ -309,6 +314,7 @@
   .row.crbtns { height: 90px; }
   .signup.signup-content img {
     width: 60% !important;
+  }
 }
 @media screen and (max-width: 475px) {
   .signup.signup-content img {
@@ -358,4 +364,3 @@
   .cl-py .searchForUsedCar { font-size: 8px; }
   .carSearchKeywords button { font-size: 10px !important; }
 }
-.bottom-border { border-bottom: 5px solid red; border-top-left-radius: 5px; border-top-right-radius: 5px; }

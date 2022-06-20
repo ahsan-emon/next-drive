@@ -1522,3 +1522,84 @@ td.vam {
  .accordion-body {
     padding: .25rem 0.5rem!important;
 }
+.bottom-border { border-bottom: 5px solid red; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+
+/* search car css style start  */
+.nav-title p{
+	padding-left: 32px;
+	color: #8e8a83;
+	font-weight: lighter;
+}
+.nav-border{
+	margin-top: 10px;
+	border: 1px solid #f3f3f2a6;
+	margin-bottom: 20px;
+}
+.filter-content{
+	padding: 15px 12px;
+	/* border: 1px solid #000; */
+	border: 1px solid #F8F8F7;
+	border-radius: 10px;
+	/* box-shadow: 0px 0px 1px #00000045; */
+}
+.car-result{
+	font-size: 12px;
+}
+.car-result h1{
+	display: inline-block;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+.current-filter h4{
+	font-size: 15px;
+	color: #8e8a83;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+.current-filter p{
+	font-size: 14px;
+	color: #8e8a83;
+	font-weight: 400;
+}
+.search-product-img img{
+	border-radius: 15px;
+}
+.car-details h1{
+	font-size: 39px;
+	color: #292826;
+	font-weight: 500;
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+.car-details h2{
+	font-size: 26px;
+	color: #000;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.car-history p{
+	color: #cb0a07;
+	background-color: #fce5e5;
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 5px 15px;
+	display: inline-block;
+}
+.price-title{
+	font-size: 16px;
+	color: #292826;
+	padding-top: 10px;
+	margin-bottom: 0;
+}
+.price-details h1{
+	color: #ff001a;
+	font-size: 27px;
+	font-weight: 900;
+}
+.price-details button{
+	border: 0;
+	box-shadow: 4px 4px 10px #000;
+	padding: 0;
+	overflow: hidden;
+	border-radius: 5px;
+}
