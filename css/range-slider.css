@@ -2,6 +2,7 @@
     position: relative;
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 35px;
 }
 input[type="range"]{
     -webkit-appearance: none;
