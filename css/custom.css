@@ -73,6 +73,9 @@
 }
 @media screen and (max-width: 1550px) {
   .row.crbtns { height: 720px; }
+  .car-details h1{
+    font-size: 36px;
+  }
 }
 @media screen and (max-width: 1520px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 30px; }
@@ -109,12 +112,59 @@
   .row.crbtns { height: 630px; }
   .header-op-btn { font-size: 13px !important; }
   .header-op-btn span i { font-size: 13px !important; }
+  .range-slider-area h1{
+    font-size: 26px;
+  }
+  .range-slider-area h2{
+    font-size: 16px;
+  }
+  .input-feild::placeholder{
+    font-size: 14px;
+  }
+  .range-input-box .form-select {
+    font-size: 14px;
+    width: 42%;
+  }
+  .car-details h1{
+    font-size: 35px;
+  }
+  .car-details h2{
+    font-size: 24.5px;
+  }
+  .range-input-box .form-select {
+    font-size: 13px;
+    width: 42%;
+  }
+  .car-search-result{
+    padding: 10px;
+  }
+  .range-slider-area{
+    padding: 10px;
+  }
 }
 @media screen and (max-width: 1339px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 22px; }
   .row.crbtns { height: 610px; }
   .header-op-btn { font-size: 12px !important; }
   .header-op-btn span i { font-size: 12px !important; }
+  .car-details h1{
+    font-size: 34px;
+  }
+  .car-details h2{
+    font-size: 23.5px;
+  }
+  .car-title h2 {
+    font-size: 32px;
+  }
+  .title-border-line {
+    width: 80%;
+  }
+  .car-search-result{
+    padding: 7px;
+  }
+  .range-slider-area{
+    padding: 7px;
+  }
 }
 @media screen and (max-width: 1284px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 22px !important; }
@@ -122,6 +172,17 @@
   .row.crbtns { height: 580px; }
   .header-op-btn { font-size: 10px !important; }
   .header-op-btn span i { font-size: 10px !important; }
+  .filter-items .filter-item p {
+    font-size: 14px;
+  }
+  .filter-items .filter-item .filter-buttons button {
+    font-size: 15px;
+    padding: 1px 12px;
+  }
+  .car-per-page p {
+    color: #292826;
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 1270px) {
   .desktopViewStockBid .bigBtn .fs-5 { font-size: 11px !important; }
@@ -131,6 +192,38 @@
 @media screen and (max-width: 1248px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 18px !important; }
   .row.crbtns { height: 600px; }
+  .car-details h1{
+    font-size: 32px;
+  }
+  .car-details h2{
+    font-size: 22px;
+    margin-bottom: 7px;
+  }
+  .car-history p {
+    font-size: 14px;
+  }
+  .price-title {
+    font-size: 15px;
+  }
+  .price-details h1 {
+    font-size: 25px;
+  }
+  .car-title h2 {
+    font-size: 30px;
+  }
+  .title-border-line {
+    width: 78%;
+  }
+  .range-input-box .form-select {
+    font-size: 13px;
+    width: 43%;
+  }
+  .car-search-result{
+    padding: 8px 5px;
+  }
+  .range-slider-area{
+    padding: 8px 5px;
+  }
 }
 @media screen and (max-width: 1200px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 18px !important; }
@@ -141,6 +234,35 @@
   }
   .header-op-btn { font-size: 14px !important; }
   .header-op-btn span i { font-size: 14px !important; }
+  .range-input-box .form-select {
+    font-size: 12px;
+    width: 45%;
+  }
+  .price-details h1 {
+    font-size: 24px;
+  }
+  .price-details h2 {
+    font-size: 20px;
+  }
+  .car-title h2 {
+    font-size: 28px;
+  }
+  .scrollup {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    font-size: 30px;
+  }
+  .range-input-box .form-select {
+    font-size: 14px;
+    width: 43%;
+  }
+  .car-search-result{
+    padding: 12px 10px;
+  }
+  .range-slider-area{
+    padding: 12px 10px;
+  }
 }
 @media screen and (max-width: 1190px) {
   .header-op-btn { font-size: 13px !important; }
@@ -155,6 +277,16 @@
 @media screen and (max-width: 1140px) {
   .header-op-btn { font-size: 11px !important; }
   .header-op-btn span i { font-size: 11px !important; }
+  .car-details h1{
+    font-size: 30px;
+  }
+  .car-details h2{
+    font-size: 20px;
+    margin-bottom: 7px;
+  }
+  .search-breadcrumb a {
+    font-size: 15px;
+  } 
 }
 @media screen and (max-width: 1120px) {
   .header-op-btn { font-size: 10px !important; }
@@ -164,13 +296,29 @@
   .desktopViewStockBid .bigBtn h4 { font-size: 16px !important; }
   .desktopViewStockBid .bigBtn .fs-5 { font-size: 10px !important; }
   .row.crbtns { height: 540px; }
-  /* .header-op-btn { font-size: 9px !important; }
-  .header-op-btn span i { font-size: 9px !important; } */
+  .car-details h1{
+    font-size: 28px;
+  }
+  .car-details h2{
+    font-size: 19.5px;
+    margin-bottom: 7px;
+  }
+  .price-details button img{
+    width: 80%;
+  }
 }
 @media screen and (max-width: 1078px) {
   .desktopViewStockBid .bigBtn h4 { font-size: 15px !important; }
   .desktopViewStockBid .bigBtn .fs-5 { font-size: 8px !important; }
-  
+  .search-breadcrumb a {
+    font-size: 14px;
+  }
+  .car-title h2 {
+    font-size: 25px;
+  }
+  .title-border-line {
+    width: 75%;
+  }
 }
 @media screen and (max-width: 1080px) {
   .desktopViewStockBid .flx img { max-width: 20px; max-height: 25px; }
@@ -190,6 +338,22 @@
 }
 @media screen and (max-width: 1040px) {
   .row.crbtns { height: 490px; }
+  .filter-items .filter-item p {
+    font-size: 13px;
+  }
+  .filter-items .filter-item .filter-buttons button {
+    font-size: 14px;
+    padding: 1px 10px;
+  }
+  .car-details h1 {
+    font-size: 27px;
+  }
+  .car-details h2 {
+    font-size: 18px;
+  }
+  .price-details button img{
+    width: 75%;
+  }
 }
 @media screen and (min-width: 992px) {
   .bottomRedBorder { display: none; }
@@ -251,6 +415,12 @@
   /* search car media css start  */
   .nav-title p{
     padding-left: 22px;
+  }
+  .scrollup {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    font-size: 28px;
   }
 
 }

@@ -1644,7 +1644,7 @@ td.vam {
 	align-items: center;
 }
 .filter-items .filter-item p{
-	color: #292826;
+	color: #8e8a83;
 	font-size: 15px;
 	margin-bottom: 0;
 }
@@ -1667,7 +1667,7 @@ td.vam {
 	margin-right: 5px;
 }
 .filter-border{
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 }
 .search-product-img img{
 	border-radius: 15px;
@@ -1706,13 +1706,15 @@ td.vam {
 }
 .price-details button{
 	border: 0;
-	box-shadow: 4px 4px 6px #000;
 	padding: 0;
-	overflow: hidden;
+	background-color: transparent;
+}
+.price-details button img{
+	box-shadow: 4px 4px 6px #000;
 	border-radius: 5px;
 }
 .show-car-border{
-	margin: 15px 0 25px 0;
+	margin: 0;
 }
 .whatsapp-link{
 	margin: 10px 0 20px 0;
@@ -1777,6 +1779,7 @@ td.vam {
 	width: 45%;
 	font-size: 15px;
 	border: 1px solid #D5D5D5;
+	color: #8e8a83;
 }
 .range-input-box span{
 	font-size: 18px;
@@ -1784,4 +1787,13 @@ td.vam {
 }
 .range-input-box .form-select:focus {
     box-shadow: none;
+}
+.range-input-box .form-select option{
+    color: #000;
+}
+.car-result-show{
+	padding: 20px 0px;
+}
+.car-result-show:hover{
+	background-color: #F5F6F6;
 }
