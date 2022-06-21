@@ -11,11 +11,12 @@ h6 {
 
 @font-face {
 	font-family: 'signpainter';
-	src: url("../font/Sign\ Painter\ Regular.ttf");
+	src: url('../font/SignPainter\ HouseScript\ Regular.ttf');
 }
 
 .signpainter {
 	font-family: 'signpainter';
+	font-size: 23px;
 }
 
 .flx {
@@ -1385,7 +1386,7 @@ td.vam {
 
 .ask-for-price-btn {
 	background: linear-gradient(to right, #fc061c 1%, #f31824 49%, #ed2229 51%, #ce0d0b 100%);
-	padding: 10px 30px!important;
+	padding: 6px 35px!important;
 	border-radius: 5px;
 }
 .desktop-site-btn {
@@ -1659,18 +1660,18 @@ td.vam {
 }
 .filter-items .filter-item .filter-buttons button:hover{
 	color: #fff;
-	font-size: 17px;
-	font-weight: 600;
 	background-color: #ff001a;
-	padding: 1px 15px;
-	border-radius: 5px;
-	margin-right: 5px;
 }
 .filter-border{
 	margin-bottom: 0px;
 }
 .search-product-img img{
 	border-radius: 15px;
+}
+.price-details h1{
+	color: #ff001a;
+	font-size: 27px;
+	font-weight: 900;
 }
 .car-details h1{
 	font-size: 37px;
@@ -1698,11 +1699,6 @@ td.vam {
 	color: #292826;
 	padding-top: 10px;
 	margin-bottom: 0;
-}
-.price-details h1{
-	color: #ff001a;
-	font-size: 27px;
-	font-weight: 900;
 }
 .price-details button{
 	border: 0;
@@ -1796,4 +1792,79 @@ td.vam {
 }
 .car-result-show:hover{
 	background-color: #F5F6F6;
+}
+.modal-content-design{
+	background-color: transparent;
+	border: 0;
+	position: relative;
+}
+.modal-content-design .close-btn{
+	position: absolute;
+	top: 6px;
+	right: 20px;
+	color: #000;
+	background-color: #fff;
+	padding: 3px 12px;
+	z-index: 99;
+	border-radius: 3px;
+}
+.pop-up-form{
+	width: 70%;
+	margin: auto;
+}
+.pop-up-car-details p{
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 0;
+}
+.pop-up-car-details p span{
+	font-weight: 700;
+}
+.pop-up-car-details h1{
+	font-size: 35px;
+	color: #292826;
+	font-weight: 500;
+}
+.pop-up-car-details h2{
+	font-size: 24px;
+	color: #000;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.pop-up-price-title{
+	padding-top: 0;
+	margin-bottom: 0;
+}
+.pop-up-price-details h1{
+	color: #ff001a;
+	font-size: 27px;
+	font-weight: 900;
+}
+.pop-up-search-product-img{
+	padding-top: 20px;
+}
+.pop-up-search-product-img img{
+	border-radius: 10px;
+}
+.pop-up-form label{
+	font-size: 20px;
+}
+.pop-up-car-content{
+	padding-bottom: 20px;
+}
+.pop-up-price-btn {
+    padding: 0px 45px!important;
+    font-size: 35px;
+}
+.pop-up-get-qoute{
+	color: #fff;
+	font-size: 28px;
+	font-weight: 600;
+}
+.pop-up-get-box{
+	border: 3px solid #FF001A;
+	padding-bottom: 10px;
+}
+.pop-up-get-box .card-header{
+	background-color: #FF001A;
 }
