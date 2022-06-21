@@ -1532,15 +1532,18 @@ td.vam {
 }
 .nav-border{
 	margin-top: 10px;
-	border: 1px solid #f3f3f2a6;
+	border: 1px solid #f3f3f2fa;
 	margin-bottom: 20px;
 }
 .filter-content{
-	padding: 15px 12px;
-	/* border: 1px solid #000; */
-	border: 1px solid #F8F8F7;
+	padding: 0px;
+	border: 1px solid #000;
+	/* border: 1px solid #F8F8F7; */
 	border-radius: 10px;
 	/* box-shadow: 0px 0px 1px #00000045; */
+}
+.car-search-result{
+	padding: 15px;
 }
 .car-result{
 	font-size: 12px;
@@ -1561,11 +1564,115 @@ td.vam {
 	color: #8e8a83;
 	font-weight: 400;
 }
+.filter-sidebar-border{
+	margin: 0;
+}
+.search-breadcrumb{
+	margin-bottom: 6px;
+}
+.search-breadcrumb a{
+	color: #8e8a83;
+	font-size: 16px;
+	padding-right: 3px;
+	padding-left: 3px;
+}
+.search-breadcrumb .breadcrumb-active{
+	color: #ff001a;
+}
+.title-border-line{
+	width: 83%;
+	height: 4px;
+	background-color: #FF0019;
+	margin-bottom: 5px;
+}
+.car-title h2{
+	color: #292826;
+	font-size: 35px;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.car-page-num ul{
+	padding: 0;
+	align-items: center;
+}
+.car-page-num ul .page-item.active .page-link{
+	background-color: transparent;
+	font-size: 17px;
+	color: #292826;
+	font-weight: 700;
+}
+.car-page-num ul li a{
+	border: 0;
+	font-size: 16px;
+	color: #292826;
+	padding: 0 6px;
+}
+.car-page-num ul li a:hover{
+	background-color: transparent;
+	font-size: 18px;
+	color: #292826!important;
+	font-weight: 700;
+}
+.car-page-num ul li a:focus{
+	background-color: transparent;
+	font-size: 17px;
+	color: #292826!important;
+	font-weight: 700;
+	box-shadow: none;
+}
+.car-page-num ul li a i{
+	color: #FF011A;
+}
+.car-per-page p{
+	color: #292826;
+	font-size: 19px;
+}
+.car-per-page p span{
+	padding-right: 5px;
+}
+.car-per-page p span.active{
+	font-size: 21px;
+	font-weight: 700;
+}
+.car-show-page-border{
+	margin-bottom: 10px;	
+}
+.filter-items{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.filter-items .filter-item p{
+	color: #292826;
+	font-size: 15px;
+	margin-bottom: 0;
+}
+.filter-items .filter-item .filter-buttons button{
+	color: #292826;
+	font-size: 17px;
+	font-weight: 600;
+	background-color: #F3F3F2;
+	padding: 1px 15px;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+.filter-items .filter-item .filter-buttons button:hover{
+	color: #fff;
+	font-size: 17px;
+	font-weight: 600;
+	background-color: #ff001a;
+	padding: 1px 15px;
+	border-radius: 5px;
+	margin-right: 5px;
+}
+.filter-border{
+	margin-bottom: 15px;
+}
 .search-product-img img{
 	border-radius: 15px;
 }
 .car-details h1{
-	font-size: 39px;
+	font-size: 37px;
 	color: #292826;
 	font-weight: 500;
 	margin-bottom: 0px;
@@ -1598,8 +1705,77 @@ td.vam {
 }
 .price-details button{
 	border: 0;
-	box-shadow: 4px 4px 10px #000;
+	box-shadow: 4px 4px 6px #000;
 	padding: 0;
 	overflow: hidden;
 	border-radius: 5px;
+}
+.show-car-border{
+	margin: 15px 0 25px 0;
+}
+.whatsapp-link{
+	margin: 10px 0 20px 0;
+}
+.checked-car-show{
+	margin-bottom: 20px;
+}
+.scrollup {
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+    padding: 0px;
+    z-index: 100;
+    font-size: 35px;
+    color: #FF001A;
+    display: none;
+    transition: 0.3s all ease-in-out;
+}
+.range-slider-area{
+	margin-top: 0px;
+	padding: 15px;
+}
+.range-slider-area h1{
+	color: #292826;
+	font-size: 28px;
+	display: flex;
+	align-items: center;
+	font-weight: 700
+}
+.range-slider-area h1 i{
+	padding-right: 5px;
+}
+.range-slider-area h2{
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 20px;
+}
+.range-slider-area .dot-icon{
+	font-size: 5px;
+	padding: 0 1px;
+	color: #292826;
+}
+.input-feild{
+	background-color: transparent;
+	margin-bottom: 10px;
+	border-radius: 7px;
+	box-shadow: 1px 1px 2px #3838381c;
+}
+.input-feild::placeholder{
+	color: #8e8a83;
+	font-size: 14px;
+}
+.range-input-box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+.range-input-box .form-select{
+	padding: 5px 0px 5px 15px;
+	width: 45%;
+	font-size: 15px;
+}
+.range-input-box span{
+	font-size: 18px;
+	font-weight: 700;
 }

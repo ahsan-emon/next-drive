@@ -25,6 +25,8 @@
     
     <!-- animate css -->
     <link rel="stylesheet" href="css/animate.css">
+    <!-- range slider css  -->
+    <link rel="stylesheet" href="css/range-slider.css">
 
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
@@ -106,24 +108,162 @@
     <main>
         <section class="main-search-content">
             <div class="container-fluid">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center align-items-start">
                     <div class="col-2 ps-xl-0">
                         <div class="filter-content">
-                            <span class="car-result" style="font-weight: 700;"><h1 style="font-weight: 700;">271</h1> cars found</span>
+                            <div class="car-search-result">
+                                <span class="car-result" style="font-weight: 700;"><h1 style="font-weight: 700;">271</h1> cars found</span>
                             <div class="current-filter">
                                 <h4>Current Filter</h4>
                                 <p>TOYOTA Harrier | 2015 Year | 20,000- 30,000km Mileage</p>
                             </div>
+                            </div>
+                            <div class="nav-border filter-sidebar-border"></div>
+                            <div class="range-slider-area">
+                                <h1><i class="fa-solid fa-sliders"></i>Filter</h1>
+                                <h2 class="d-flex align-items-center">Make<i class="fa-solid fa-circle dot-icon"></i>Model</h2>
+                                <input class="input-feild" type="text" placeholder="Harrier">
+                                <h2 class="d-flex align-items-center">Model Grade</h2>
+                                <input class="input-feild" type="text" placeholder="Model Grade">
+                                <h2 class="d-flex align-items-center">Vehicle Price</h2>
+                                <div class="range-slider">
+                                    <div class="slider-track"></div>
+                                    <input type="range" min="0" max="100" value="0" id="slider-1" oninput="slideOne()">
+                                    <input type="range" min="0" max="100" value="100" id="slider-2" oninput="slideTwo()">
+                                </div>
+                                <div class="range-input-box">
+                                    <select name="" class="form-select" aria-label="Default select example" id="">
+                                        <option value="" selected="" disabled="">Min</option>
+                                         <option value="">$500</option>
+                                         <option value="">$1000</option>
+                                         <option value="">$1500</option>
+                                         <option value="">$2000</option>
+                                         <option value="">$1500</option>
+                                         <option value="">$3000</option>
+                                     </select>
+                                     <span>~</span>
+                                     <select name="" class="form-select" aria-label="Default select example" id="">
+                                        <option value="" selected="" disabled="">Max</option>
+                                        <option value="">$500</option>
+                                        <option value="">$1000</option>
+                                        <option value="">$1500</option>
+                                        <option value="">$2000</option>
+                                        <option value="">$1500</option>
+                                        <option value="">$3000</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-8">
+                        <!-- <div class="d-flex justify-content-center">
+                            <div class="search-product-img">
+                                <img class="img-fluid" src="img/OvzcM1.png" alt="Car Image">
+                            </div>
+                            <div class="car-content-details">
+                                <div class="car-details">
+                                    <h1>TOYOTA HARRIER 2015 BLACK</h1>
+                                    <h2>TX L PACKAGE G-FRONTIER 4WD 7 LEATHER SEATS DIESEL</h2>
+                                </div>
+                                <div class="car-history">
+                                    <p>24,500km  |  Automatic  |  No Accident  |  Diesel  |   2,800cc</p>
+                                </div>
+                                <p class="price-title">Vehicle Price</p>
+                                <div class="price-details d-flex justify-content-between align-items-center">
+                                    <h1>USD 20,727</h1>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <img src="img/best.png" class="img-fluid" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div> -->
+                        
+                        <!-- breadcrumb -->
+                        <div class="breadcrumb search-breadcrumb p-0 bg-white">
+                            <a href="index.html" class="ps-0">Home</a> > <a href="">Japanese used cars</a> >  <a href="">Toyota</a> > <a href="" class="breadcrumb-active">Toyota Harrier </a>
+                        </div>
+                        <!-- breadcrumb -->
+                        <!-- car title  -->
+                        <div class="car-title">
+                            <h2>Harrier - used vehicles for sale (1~30)</h2>
+                            <div class="title-border-line"></div>
+                        </div>
+                        <!-- car per page  -->
+                        <div class="car-show-page d-flex justify-content-between align-items-center">
+                            <div class="car-per-page">
+                                <p>Cars Per Page: <span class="active">30</span><span>60</span><span>90</span></p>
+                            </div>
+                            <div class="car-page-num">
+                                <nav aria-label="...">
+                                    <ul class="pagination">
+                                      <li class="page-item">
+                                        <a class="page-link" href="#" tabindex="-1"><i class="fa-solid fa-chevron-left"></i></a>
+                                      </li>
+                                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                      
+                                      <li class="page-item"><a class="page-link" href="#">-</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                      <li class="page-item active">
+                                        <a class="page-link" href="#">5 </a>
+                                      </li>
+                                      <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">8</a></li>
+                                      <li class="page-item">
+                                        <a class="page-link" href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                                      </li>
+                                    </ul>
+                                  </nav>
+                            </div>
+                        </div>
+                        <div class="nav-border car-show-page-border"></div>
+                        <!-- filter items  -->
+                        <div class="filter-items">
+                            <div class="filter-item">
+                                <p>New Arrivals</p>
+                                <div class="filter-buttons">
+                                    <button class="btn">New</button>
+                                    <button class="btn">Old</button>
+                                </div>
+                            </div>
+                            <div class="filter-item">
+                                <p>Price</p>
+                                <div class="filter-buttons">
+                                    <button class="btn">New</button>
+                                    <button class="btn">Old</button>
+                                </div>
+                            </div>
+                            <div class="filter-item">
+                                <p>Year</p>
+                                <div class="filter-buttons">
+                                    <button class="btn">New</button>
+                                    <button class="btn">Old</button>
+                                </div>
+                            </div>
+                            <div class="filter-item">
+                                <p>Mileage</p>
+                                <div class="filter-buttons">
+                                    <button class="btn">New</button>
+                                    <button class="btn">Old</button>
+                                </div>
+                            </div>
+                            <div class="filter-item">
+                                <p>Engine (cc)</p>
+                                <div class="filter-buttons">
+                                    <button class="btn">New</button>
+                                    <button class="btn">Old</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-border filter-border"></div>
+                        <!-- car result show  -->
                         <div class="row">
-                            <div class="col-3 pe-0">
+                            <div class="col-xxl-4 col-3 pe-0">
                                 <div class="search-product-img">
                                     <img class="img-fluid" src="img/OvzcM1.png" alt="Car Image">
                                 </div>
                             </div>
-                            <div class="col-9">
+                            <div class="col-xxl-8 col-9">
                                 <div class="car-details">
                                     <h1>TOYOTA HARRIER 2015 BLACK</h1>
                                     <h2>TX L PACKAGE G-FRONTIER 4WD 7 LEATHER SEATS DIESEL</h2>
@@ -140,190 +280,335 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="nav-border show-car-border"></div>
+                        <div class="row">
+                            <div class="col-xxl-4 col-3 pe-0">
+                                <div class="search-product-img">
+                                    <img class="img-fluid" src="img/OvzcM1.png" alt="Car Image">
+                                </div>
+                            </div>
+                            <div class="col-xxl-8 col-9">
+                                <div class="car-details">
+                                    <h1>TOYOTA HARRIER 2015 BLACK</h1>
+                                    <h2>TX L PACKAGE G-FRONTIER 4WD 7 LEATHER SEATS DIESEL</h2>
+                                </div>
+                                <div class="car-history">
+                                    <p>24,500km  |  Automatic  |  No Accident  |  Diesel  |   2,800cc</p>
+                                </div>
+                                <p class="price-title">Vehicle Price</p>
+                                <div class="price-details d-flex justify-content-between align-items-center">
+                                    <h1>USD 20,727</h1>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <img src="img/best.png" class="img-fluid" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-border show-car-border"></div>
+                        <div class="row">
+                            <div class="col-xxl-4 col-3 pe-0">
+                                <div class="search-product-img">
+                                    <img class="img-fluid" src="img/OvzcM1.png" alt="Car Image">
+                                </div>
+                            </div>
+                            <div class="col-xxl-8 col-9">
+                                <div class="car-details">
+                                    <h1>TOYOTA HARRIER 2015 BLACK</h1>
+                                    <h2>TX L PACKAGE G-FRONTIER 4WD 7 LEATHER SEATS DIESEL</h2>
+                                </div>
+                                <div class="car-history">
+                                    <p>24,500km  |  Automatic  |  No Accident  |  Diesel  |   2,800cc</p>
+                                </div>
+                                <p class="price-title">Vehicle Price</p>
+                                <div class="price-details d-flex justify-content-between align-items-center">
+                                    <h1>USD 20,727</h1>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <img src="img/best.png" class="img-fluid" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-border show-car-border"></div>
+                        <div class="row">
+                            <div class="col-xxl-4 col-3 pe-0">
+                                <div class="search-product-img">
+                                    <img class="img-fluid" src="img/OvzcM1.png" alt="Car Image">
+                                </div>
+                            </div>
+                            <div class="col-xxl-8 col-9">
+                                <div class="car-details">
+                                    <h1>TOYOTA HARRIER 2015 BLACK</h1>
+                                    <h2>TX L PACKAGE G-FRONTIER 4WD 7 LEATHER SEATS DIESEL</h2>
+                                </div>
+                                <div class="car-history">
+                                    <p>24,500km  |  Automatic  |  No Accident  |  Diesel  |   2,800cc</p>
+                                </div>
+                                <p class="price-title">Vehicle Price</p>
+                                <div class="price-details d-flex justify-content-between align-items-center">
+                                    <h1>USD 20,727</h1>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <img src="img/best.png" class="img-fluid" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-border show-car-border"></div>
+                        <div class="row">
+                            <div class="col-xxl-4 col-3 pe-0">
+                                <div class="search-product-img">
+                                    <img class="img-fluid" src="img/OvzcM1.png" alt="Car Image">
+                                </div>
+                            </div>
+                            <div class="col-xxl-8 col-9">
+                                <div class="car-details">
+                                    <h1>TOYOTA HARRIER 2015 BLACK</h1>
+                                    <h2>TX L PACKAGE G-FRONTIER 4WD 7 LEATHER SEATS DIESEL</h2>
+                                </div>
+                                <div class="car-history">
+                                    <p>24,500km  |  Automatic  |  No Accident  |  Diesel  |   2,800cc</p>
+                                </div>
+                                <p class="price-title">Vehicle Price</p>
+                                <div class="price-details d-flex justify-content-between align-items-center">
+                                    <h1>USD 20,727</h1>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <img src="img/best.png" class="img-fluid" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-border show-car-border"></div>
+                        <div class="row">
+                            <div class="col-xxl-4 col-3 pe-0">
+                                <div class="search-product-img">
+                                    <img class="img-fluid" src="img/OvzcM1.png" alt="Car Image">
+                                </div>
+                            </div>
+                            <div class="col-xxl-8 col-9">
+                                <div class="car-details">
+                                    <h1>TOYOTA HARRIER 2015 BLACK</h1>
+                                    <h2>TX L PACKAGE G-FRONTIER 4WD 7 LEATHER SEATS DIESEL</h2>
+                                </div>
+                                <div class="car-history">
+                                    <p>24,500km  |  Automatic  |  No Accident  |  Diesel  |   2,800cc</p>
+                                </div>
+                                <p class="price-title">Vehicle Price</p>
+                                <div class="price-details d-flex justify-content-between align-items-center">
+                                    <h1>USD 20,727</h1>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <img src="img/best.png" class="img-fluid" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-border show-car-border mb-2"></div>
+                        <!-- car per page  -->
+                        <div class="car-show-page d-flex justify-content-between align-items-center">
+                            <div class="car-per-page">
+                                <p>Cars Per Page: <span class="active">30</span><span>60</span><span>90</span></p>
+                            </div>
+                            <div class="car-page-num">
+                                <nav aria-label="...">
+                                    <ul class="pagination">
+                                      <li class="page-item">
+                                        <a class="page-link" href="#" tabindex="-1"><i class="fa-solid fa-chevron-left"></i></a>
+                                      </li>
+                                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                      
+                                      <li class="page-item"><a class="page-link" href="#">-</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                      <li class="page-item active">
+                                        <a class="page-link" href="#">5 </a>
+                                      </li>
+                                      <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">8</a></li>
+                                      <li class="page-item">
+                                        <a class="page-link" href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                                      </li>
+                                    </ul>
+                                  </nav>
+                            </div>
+                        </div>
+                        <!-- Whatsapp link  -->
+                        <div class="row text-center">
+                            <div class="col-12">
+                                <div class="whatsapp-link">
+                                    <a href="https://wa.me/815088804470" class="btn">
+                                        <img src="img/Group 12.png" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- checked car show  -->
+                        <div class="row checked-car-show">
+                            <div class="col-12">
+                                <div class="flx height-space4">
+                                    <span class="bg-danger pink-bg px-4 p-2 text-white cornder-cropped position-relative">
+                                        <div class="fold"></div>
+                                        <i class="fa fa-tag text-white fa-flip"></i> Checked
+                                    </span>
+                                </div>
+                                <div class="line"></div>
+                
+                                <div class="row mt-4">
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                       <a href="" class="text-dark text-decoration-none">
+                                        <div class="card border-0">
+                                            <img src="img/car.png" class="img-fluid" alt="">
+                                            <div class="card-body product-bg py-1 px-0">
+                                                <p class="fw-bold dark-ash mb-0">
+                                                    TOYOTA
+                                                </p>
+                                                <p class="mb-0 text-danger dark-pink fw-bold">
+                                                    PROBOX VAN DX COMFORT
+                                                </p>
+                                                <p class="mb-0 text-muted light-ash fs-14">
+                                                    2018
+                                                </p>
+                                                <p class="mb-0 text-muted light-ash fs-14">
+                                                    NSP160
+                                                </p>
+                                                <p class="text-dark dark-ash fw-bold">
+                                                    JPY 5,400,000
+                                                </p>
+                                            </div>
+                                        </div>
+                                       </a>
+                                    </div>
+                
+                                    <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="" class="text-dark text-decoration-none">
+                                         <div class="card border-0">
+                                             <img src="img/c2.png" class="img-fluid" alt="">
+                                             <div class="card-body product-bg py-1 px-0">
+                                                 <p class="fw-bold dark-ash mb-0">
+                                                     TOYOTA
+                                                 </p>
+                                                 <p class="mb-0 text-danger dark-pink fw-bold">
+                                                    PROBOX VAN DX COMFORT
+                                                 </p>
+                                                 <p class="mb-0 text-muted light-ash fs-14">
+                                                     2018
+                                                 </p>
+                                                 <p class="mb-0 text-muted light-ash fs-14">
+                                                    NSP160
+                                                </p>
+                                                 <p class="text-dark dark-ash fw-bold">
+                                                     JPY 5,400,000
+                                                 </p>
+                                             </div>
+                                         </div>
+                                        </a>
+                                     </div>
+                
+                                     <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="" class="text-dark text-decoration-none">
+                                         <div class="card border-0">
+                                             <img src="img/c3.png" class="img-fluid" alt="">
+                                             <div class="card-body product-bg py-1 px-0">
+                                                 <p class="fw-bold dark-ash mb-0">
+                                                     TOYOTA
+                                                 </p>
+                                                 <p class="mb-0 text-danger dark-pink fw-bold">
+                                                     PROBOX VAN DX COMFORT
+                                                 </p>
+                                                 <p class="mb-0 text-muted light-ash fs-14">
+                                                     2018
+                                                 </p>
+                                                 <p class="mb-0 text-muted light-ash fs-14">
+                                                    NSP160
+                                                </p>
+                                                 <p class="text-dark dark-ash fw-bold">
+                                                     JPY 5,400,000
+                                                 </p>
+                                             </div>
+                                         </div>
+                                        </a>
+                                     </div>
+                
+                                     <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="" class="text-dark text-decoration-none">
+                                         <div class="card border-0">
+                                             <img src="img/c4.png" class="img-fluid" alt="">
+                                             <div class="card-body product-bg py-1 px-0">
+                                                 <p class="fw-bold dark-ash mb-0">
+                                                     TOYOTA
+                                                 </p>
+                                                 <p class="mb-0 text-danger dark-pink fw-bold">
+                                                     PROBOX VAN DX COMFORT
+                                                 </p>
+                                                 <p class="mb-0 text-muted light-ash fs-14">
+                                                     2018
+                                                 </p>
+                                                 <p class="mb-0 text-muted light-ash fs-14">
+                                                    NSP160
+                                                </p>
+                                                 <p class="text-dark dark-ash fw-bold">
+                                                     JPY 5,400,000
+                                                 </p>
+                                             </div>
+                                         </div>
+                                        </a>
+                                     </div>
+                
+                                     <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="" class="text-dark text-decoration-none">
+                                         <div class="card border-0">
+                                             <img src="img/c5.png" class="img-fluid" alt="">
+                                             <div class="card-body product-bg py-1 px-0">
+                                                 <p class="fw-bold dark-ash mb-0">
+                                                     TOYOTA
+                                                 </p>
+                                                 <p class="mb-0 text-danger dark-pink fw-bold">
+                                                     PROBOX VAN DX COMFORT
+                                                 </p>
+                                                 <p class="mb-0 text-muted light-ash fs-14">
+                                                     2018
+                                                 </p>
+                                                 <p class="mb-0 text-muted light-ash fs-14">
+                                                    NSP160
+                                                </p>
+                                                 <p class="text-dark dark-ash fw-bold">
+                                                     JPY 5,400,000
+                                                 </p>
+                                             </div>
+                                         </div>
+                                        </a>
+                                     </div>
+                
+                                     <div class="col-lg-2 col-md-4 col-6">
+                                        <a href="" class="text-dark text-decoration-none">
+                                         <div class="card border-0">
+                                             <img src="img/c6.png" class="img-fluid" alt="">
+                                             <div class="card-body product-bg py-1 px-0">
+                                                 <p class="fw-bold dark-ash mb-0">
+                                                     TOYOTA
+                                                 </p>
+                                                 <p class="mb-0 text-danger dark-pink fw-bold">
+                                                     PROBOX VAN DX COMFORT
+                                                 </p>
+                                                 <p class="mb-0 text-muted light-ash fs-14">
+                                                     2018
+                                                 </p>
+                                                 <p class="mb-0 text-muted light-ash fs-14">
+                                                    NSP160
+                                                </p>
+                                                 <p class="text-dark dark-ash fw-bold">
+                                                     JPY 5,400,000
+                                                 </p>
+                                             </div>
+                                         </div>
+                                        </a>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <!-- main end  -->
-
-    <!-- breadcrumb -->
-    <!-- <section class="breadcrumb breadcrumb-margin bg-white pt-md-3 pt-0 pb-0 mb-0">
-        <div class="container-fluid">
-            <a href="index.html" class="text-dark">Home</a> > <a href="" class="text-dark">Japanese used cars</a> >  <a href="" class="text-dark">Toyota</a> > <a href="" class="text-danger pink">Toyota Harrier </a>
-        </div>
-    </section> -->
-    <!-- breadcrumb -->
-
-    <!-- car -->
-    <section class="casss py-2">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-11">
-                    <div class="flx height-space4">
-                        <span class="bg-danger pink-bg px-4 p-2 text-white cornder-cropped position-relative">
-                            <div class="fold"></div>
-                            <i class="fa fa-tag text-white fa-flip"></i> Checked
-                        </span>
-                    </div>
-                    <div class="line"></div>
-    
-                    <div class="row mt-4">
-                        <div class="col-lg-2 col-md-4 col-6">
-                           <a href="" class="text-dark text-decoration-none">
-                            <div class="card border-0">
-                                <img src="img/car.png" class="img-fluid" alt="">
-                                <div class="card-body product-bg py-1 px-0">
-                                    <p class="fw-bold dark-ash mb-0">
-                                        TOYOTA
-                                    </p>
-                                    <p class="mb-0 text-danger dark-pink fw-bold">
-                                        PROBOX VAN DX COMFORT
-                                    </p>
-                                    <p class="mb-0 text-muted light-ash fs-14">
-                                        2018
-                                    </p>
-                                    <p class="mb-0 text-muted light-ash fs-14">
-                                        NSP160
-                                    </p>
-                                    <p class="text-dark dark-ash fw-bold">
-                                        JPY 5,400,000
-                                    </p>
-                                </div>
-                            </div>
-                           </a>
-                        </div>
-    
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <a href="" class="text-dark text-decoration-none">
-                             <div class="card border-0">
-                                 <img src="img/c2.png" class="img-fluid" alt="">
-                                 <div class="card-body product-bg py-1 px-0">
-                                     <p class="fw-bold dark-ash mb-0">
-                                         TOYOTA
-                                     </p>
-                                     <p class="mb-0 text-danger dark-pink fw-bold">
-                                        PROBOX VAN DX COMFORT
-                                     </p>
-                                     <p class="mb-0 text-muted light-ash fs-14">
-                                         2018
-                                     </p>
-                                     <p class="mb-0 text-muted light-ash fs-14">
-                                        NSP160
-                                    </p>
-                                     <p class="text-dark dark-ash fw-bold">
-                                         JPY 5,400,000
-                                     </p>
-                                 </div>
-                             </div>
-                            </a>
-                         </div>
-    
-                         <div class="col-lg-2 col-md-4 col-6">
-                            <a href="" class="text-dark text-decoration-none">
-                             <div class="card border-0">
-                                 <img src="img/c3.png" class="img-fluid" alt="">
-                                 <div class="card-body product-bg py-1 px-0">
-                                     <p class="fw-bold dark-ash mb-0">
-                                         TOYOTA
-                                     </p>
-                                     <p class="mb-0 text-danger dark-pink fw-bold">
-                                         PROBOX VAN DX COMFORT
-                                     </p>
-                                     <p class="mb-0 text-muted light-ash fs-14">
-                                         2018
-                                     </p>
-                                     <p class="mb-0 text-muted light-ash fs-14">
-                                        NSP160
-                                    </p>
-                                     <p class="text-dark dark-ash fw-bold">
-                                         JPY 5,400,000
-                                     </p>
-                                 </div>
-                             </div>
-                            </a>
-                         </div>
-    
-                         <div class="col-lg-2 col-md-4 col-6">
-                            <a href="" class="text-dark text-decoration-none">
-                             <div class="card border-0">
-                                 <img src="img/c4.png" class="img-fluid" alt="">
-                                 <div class="card-body product-bg py-1 px-0">
-                                     <p class="fw-bold dark-ash mb-0">
-                                         TOYOTA
-                                     </p>
-                                     <p class="mb-0 text-danger dark-pink fw-bold">
-                                         PROBOX VAN DX COMFORT
-                                     </p>
-                                     <p class="mb-0 text-muted light-ash fs-14">
-                                         2018
-                                     </p>
-                                     <p class="mb-0 text-muted light-ash fs-14">
-                                        NSP160
-                                    </p>
-                                     <p class="text-dark dark-ash fw-bold">
-                                         JPY 5,400,000
-                                     </p>
-                                 </div>
-                             </div>
-                            </a>
-                         </div>
-    
-                         <div class="col-lg-2 col-md-4 col-6">
-                            <a href="" class="text-dark text-decoration-none">
-                             <div class="card border-0">
-                                 <img src="img/c5.png" class="img-fluid" alt="">
-                                 <div class="card-body product-bg py-1 px-0">
-                                     <p class="fw-bold dark-ash mb-0">
-                                         TOYOTA
-                                     </p>
-                                     <p class="mb-0 text-danger dark-pink fw-bold">
-                                         PROBOX VAN DX COMFORT
-                                     </p>
-                                     <p class="mb-0 text-muted light-ash fs-14">
-                                         2018
-                                     </p>
-                                     <p class="mb-0 text-muted light-ash fs-14">
-                                        NSP160
-                                    </p>
-                                     <p class="text-dark dark-ash fw-bold">
-                                         JPY 5,400,000
-                                     </p>
-                                 </div>
-                             </div>
-                            </a>
-                         </div>
-    
-                         <div class="col-lg-2 col-md-4 col-6">
-                            <a href="" class="text-dark text-decoration-none">
-                             <div class="card border-0">
-                                 <img src="img/c6.png" class="img-fluid" alt="">
-                                 <div class="card-body product-bg py-1 px-0">
-                                     <p class="fw-bold dark-ash mb-0">
-                                         TOYOTA
-                                     </p>
-                                     <p class="mb-0 text-danger dark-pink fw-bold">
-                                         PROBOX VAN DX COMFORT
-                                     </p>
-                                     <p class="mb-0 text-muted light-ash fs-14">
-                                         2018
-                                     </p>
-                                     <p class="mb-0 text-muted light-ash fs-14">
-                                        NSP160
-                                    </p>
-                                     <p class="text-dark dark-ash fw-bold">
-                                         JPY 5,400,000
-                                     </p>
-                                 </div>
-                             </div>
-                            </a>
-                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- car -->
 
     <!-- signup -->
     <div class="signup signup-content py-md-2 py-3">
@@ -432,11 +717,11 @@
 
                     <p class="fs-14">
 
-・<a href="" class="text-dark">From Stock
-</a> <br>
-・<a href="">From Auction Venue
-</a> <br>
-・<a href="">From Yahoo! Auction</a>
+                        ・<a href="" class="text-dark">From Stock
+                        </a> <br>
+                        ・<a href="">From Auction Venue
+                        </a> <br>
+                        ・<a href="">From Yahoo! Auction</a>
                     </p>
 
                     <div class="useful-links-margin"></div>
@@ -446,13 +731,13 @@
 
                     <p class="fs-14">
 
-・<a href="" class="text-dark">Shipping Schedule
-</a> <br>
-・<a href="">Check Manufacture Year
-</a> <br>
-・<a href="">Exchange Rate</a><br>
-・<a href="">Specifications</a><br>
-・<a href="">Blog</a>
+                        ・<a href="" class="text-dark">Shipping Schedule
+                        </a> <br>
+                        ・<a href="">Check Manufacture Year
+                        </a> <br>
+                        ・<a href="">Exchange Rate</a><br>
+                        ・<a href="">Specifications</a><br>
+                        ・<a href="">Blog</a>
                     </p>
 
 
@@ -463,11 +748,11 @@
 
                     <p class="fs-14">
 
-・<a href="" class="text-dark">Join our Global Partnership
-    
-</a> <br>
-・<a href="">Join our Japan Partnership
-</a>
+                        ・<a href="" class="text-dark">Join our Global Partnership
+                            
+                        </a> <br>
+                        ・<a href="">Join our Japan Partnership
+                        </a>
                     </p>
                 </div>
                 <div class="col-md-3 footer-menu-color p-2">
@@ -476,14 +761,14 @@
 
                     <p class="fs-14">
 
-・<a href="" class="text-dark">Company Profile
-</a> <br>
-・<a href="">Bank Information
-</a> <br>
-・<a href="">Why Next Drive?</a><br>
-・<a href="">Authorized Agents</a><br>
-・<a href="">Track your purchased car</a><br>
-・<a href="">Inquiry</a><br>
+                        ・<a href="" class="text-dark">Company Profile
+                        </a> <br>
+                        ・<a href="">Bank Information
+                        </a> <br>
+                        ・<a href="">Why Next Drive?</a><br>
+                        ・<a href="">Authorized Agents</a><br>
+                        ・<a href="">Track your purchased car</a><br>
+                        ・<a href="">Inquiry</a><br>
                     </p>
 
                     <div class="mt-5"></div>
@@ -504,15 +789,13 @@
                     </p>
 
 
-
-
                     <p class="fs-14">
 
-・<a href="" class="text-dark">Terms of use
-</a> <br>
-・<a href="">Privacy Policy
-</a> <br>
-・<a href="">How we use Cookies</a>
+                        ・<a href="" class="text-dark">Terms of use
+                        </a> <br>
+                        ・<a href="">Privacy Policy
+                        </a> <br>
+                        ・<a href="">How we use Cookies</a>
                     </p>
                 </div>
             </div>
@@ -532,7 +815,9 @@
     </section>
     <!-- copyright -->
 
-
+    <a href="" class="scrollup" style="display: inline;">
+        <i class="fa-solid fa-chevron-up"></i>
+      </a>
 
     <!-- mobile menu -->
     <section class="mobileMenu py-3">
@@ -654,9 +939,27 @@
 
     <script src="https://live.hasthemes.com/html/2/norda-preview/norda/assets/js/vendor/vendor.min.js"></script>
     <script src="https://live.hasthemes.com/html/2/norda-preview/norda/assets/js/plugins/plugins.min.js"></script>
+    <!-- range slider js  -->
+    <script src="js/range-slider.js"></script>
 
     <!-- main js -->
     <script src="js/main.js"></script>
     <script src="js/custom.js"></script>
+    <!-- go top  -->
+    <script>
+        $(window).scroll(function() {
+        if ($(this).scrollTop() > 600) {
+          $(".scrollup").show();
+        } else {
+          $(".scrollup").hide();
+        }
+      });
+      $(".scrollup").click(function() {
+        $("html, body").animate({
+          scrollTop: 0
+        }, 600);
+        return false;
+      });
+      </script>
   </body>
 </html>
