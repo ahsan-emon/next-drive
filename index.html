@@ -24,6 +24,8 @@
     
     <!-- animate css -->
     <link rel="stylesheet" href="css/animate.css">
+    <!-- range slider css  -->
+    <link rel="stylesheet" href="css/range-slider.css">
 
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css">
@@ -178,8 +180,8 @@
                             <i class="fa fa-times"></i>
                         </button>
                     </div>
-                    <div class="searchtopBar bg-danger-50 flx justify-content-between">
-                        <button class="btn fs-20 active mk1">
+                    <div class="searchtopBar bg-danger-50 flx justify-content-between pop-up-search-bar-menu">
+                        <button class="btn fs-20 active mk1 pop-up-select-btn">
                             <span>
                                 <i class="fa fa-car text-danger fs-20">
                                 </i>
@@ -188,7 +190,7 @@
                             </span>
                             <!-- <div class="line"></div> -->
                         </button>
-                        <button class="btn fs-20 active mk1">
+                        <button class="btn fs-20 active mk1 pop-up-model-btn">
                            <span>
                             <i class="fa fa-map-marker-alt text-danger fs-20">
                             </i>
@@ -197,7 +199,7 @@
                            </span>
                            <!-- <div class="line"></div> -->
                         </button>
-                        <button class="btn fs-20 mk2">
+                        <button class="btn fs-20 mk2 pop-up-price-btn">
                             <span>
                                 <i class="fa fa-dollar-sign text-danger fs-20">
                                 </i>
@@ -206,7 +208,7 @@
                             </span>
                             <!-- <div class="line"></div> -->
                         </button>
-                        <button class="btn fs-20 btn-danger">
+                        <button class="btn fs-20 btn-danger pop-up-search-btn">
                          Search
                          <!-- <i class="fa fa-angle-right"></i> -->
                            <!-- <div class="line"></div> -->
@@ -216,16 +218,16 @@
                    
 
                     <div class="mainCard makeCard">
-                        <h5 class="fs-20 src mt-3">
-                            <i class="fa fa-map-marker-alt"></i> Choose Make (Multiple)
+                        <h5 class="fs-20 src mt-3 fw-bold">
+                            <i class="fa fa-map-marker-alt text-danger"></i> Choose Make (Multiple)
                          </h5>
-                        <table class="table mb-0">
+                        <table class="table table-bordered mb-0">
                            <tr>
                             <td class="bg-light">
-                                <h3 class="src mb-0">Make</h3>
+                                <h3 class="src mb-0 fw-bold">Make</h3>
                             </td>
                             <td class="bg-light">
-                                <h3 class="src mb-0">
+                                <h3 class="src mb-0 fw-bold">
                                     Model
                                 </h3>
                             </td>
@@ -328,24 +330,37 @@
                                </td>
                            </tr>
                         </table>
+                        <div class="row align-items-center mt-3">
+                            <div class="col-4"></div>
+                            <div class="col-4 text-center">
+                                <button class="btn btn-danger searchForUsedCarBtn signpainter pop-up-search">Search Now</button>
+                            </div>
+                            <div class="col-4 text-end">
+                                <button class="next-price-btn btn">Price <i class="fa-solid fa-chevron-right"></i></button>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="mainCard priceCard">
-                        <h5 class="fs-20 src mt-3">
-                            <i class="fa fa-map-marker-alt"></i> Choose Price Range / Registration Year/ Mileage
+                        <h5 class="fs-20 src mt-3 fw-bold">
+                            <i class="fa fa-map-marker-alt text-danger"></i> Choose Price Range / Registration Year/ Mileage
                          </h5>
                         
                          <div class="row mt-2">
                             <div class="col-md-6 p-3">
-                                <p class="fs-20 text-dark mb-0">
+                                <p class="fs-20 text-dark mb-0 fw-bold">
                                     Vehicle Price
                                 </p>
-                                <input type="range" name="" id="">
+                                <div class="range-slider">
+                                    <div class="slider-track"></div>
+                                    <input type="range" min="0" max="100" value="0" id="slider-1" oninput="slideOne()">
+                                    <input type="range" min="0" max="100" value="100" id="slider-2" oninput="slideTwo()">
+                                </div>
                                 <table class="table">
                                     <tr>
                                         <td class="border-0">
                                             <select name="" class="form-select" aria-label="Default select example" id="">
-                                               <option value="" selected disabled>MIN</option>
+                                               <option value="" selected disabled>Min</option>
                                                 <option value="">$500</option>
                                                 <option value="">$1000</option>
                                                 <option value="">$1500</option>
@@ -359,7 +374,7 @@
                                         </td>
                                         <td class="border-0">
                                            <select name="" class="form-select" aria-label="Default select example" id="">
-                                               <option value="" selected disabled>MAX</option>
+                                               <option value="" selected disabled>Max</option>
                                                <option value="">$500</option>
                                                <option value="">$1000</option>
                                                <option value="">$1500</option>
@@ -373,10 +388,14 @@
                             </div>
    
                             <div class="col-md-6 p-3">
-                               <p class="fs-20 text-dark mb-0">
+                               <p class="fs-20 text-dark mb-0 fw-bold">
                                    Registration Year
                                </p>
-                               <input type="range" name="" id="">
+                               <div class="range-slider">
+                                <div class="slider-track"></div>
+                                <input type="range" min="0" max="100" value="0" id="slider-1" oninput="slideOne()">
+                                <input type="range" min="0" max="100" value="100" id="slider-2" oninput="slideTwo()">
+                            </div>
                                <table class="table">
                                    <tr>
                                        <td class="border-0">
@@ -405,10 +424,14 @@
                            </div>
 
                            <div class="col-md-6 p-3">
-                            <p class="fs-20 text-dark mb-0">
+                            <p class="fs-20 text-dark mb-0 fw-bold">
                                 Milage
                             </p>
-                            <input type="range" name="" id="">
+                            <div class="range-slider">
+                                <div class="slider-track"></div>
+                                <input type="range" min="0" max="100" value="0" id="slider-1" oninput="slideOne()">
+                                <input type="range" min="0" max="100" value="100" id="slider-2" oninput="slideTwo()">
+                            </div>
                             <table class="table">
                                 <tr>
                                     <td class="border-0">
@@ -425,7 +448,7 @@
                                     </td>
                                     <td class="border-0">
                                         <select name="" class="form-select" aria-label="Default select example" id="">
-                                           <option value="" selected disabled>o</option>
+                                           <option value="" selected disabled>To</option>
                                             <option value="">100</option>
                                             <option value="">200</option>
                                             <option value="">300</option>
@@ -435,6 +458,17 @@
                                 </tr>
                             </table>
                         </div>
+                         </div>
+                         <div class="row align-items-center mt-3">
+                            <div class="col-4">
+                                <button class="prev-model-btn btn"><i class="fa-solid fa-chevron-left"></i> Model</button>
+                            </div>
+                            <div class="col-4 text-center">
+                                <button class="btn btn-danger searchForUsedCarBtn signpainter pop-up-search">Search Now</button>
+                            </div>
+                            <div class="col-4">
+                                
+                            </div>
                          </div>
                     </div>
                 </div>
@@ -597,7 +631,7 @@
                                     </table>
                                 </div>
                                 <div class="col-12 py-1">
-                                    <button class="btn btn-danger searchForUsedCarBtn w-100">Search</button>
+                                    <button class="btn btn-danger searchForUsedCarBtn w-100 signpainter">Search</button>
                                 </div>
                             </div>
 
@@ -2578,6 +2612,8 @@ Year
 
     <script src="https://live.hasthemes.com/html/2/norda-preview/norda/assets/js/vendor/vendor.min.js"></script>
     <script src="https://live.hasthemes.com/html/2/norda-preview/norda/assets/js/plugins/plugins.min.js"></script>
+    <!-- range slider js  -->
+    <script src="js/range-slider.js"></script>
 
     <!-- main js -->
     <script src="js/main.js"></script>

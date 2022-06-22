@@ -15,9 +15,14 @@
 .searchForUsedCar i { color: rgb(220, 53, 69); }
 .carSearchKeywords button { font-size: 20px !important; }
 .carSearchKeywords button:hover { color: rgb(0, 0, 0); }
-.searchForUsedCarBtn {border-radius: 10px;font-style: italic;font-size: 19px;
+.searchForUsedCarBtn {
+  border-radius: 10px;
+  font-size: 26px;
   font-weight: 600;
-  padding: 0px 0;background: linear-gradient(to right,  #fd031b 0%,#ec1a25 49%,#e1292c 51%,#c20a07 100%);box-shadow: rgb(136 136 136 / 40%) 6px 6px 10px !important;}
+  padding: 0px 0;
+  background: linear-gradient(to right,  #fd031b 0%,#ec1a25 49%,#e1292c 51%,#c20a07 100%);
+  box-shadow: rgb(136 136 136 / 40%) 6px 6px 10px !important;
+  }
 .nextBlog { font-size: 30px; }
 .blogsMobile p { color: rgb(0, 0, 0) !important; }
 .faq p { color: rgb(0, 0, 0); font-weight: 600; }
