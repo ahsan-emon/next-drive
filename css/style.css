@@ -1964,3 +1964,26 @@ td.vam {
 	color: #cb0a07;
 	padding-right: 5px;
 }
+.hide-desktop{
+	display: none;
+}
+.search-buttons-div{
+	background-color: #D9D9D9;
+	padding: 10px;
+}
+.clear-btn{
+	color: #292826;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 5px 20px;
+	font-size: 17px;
+	font-weight: 700;
+	margin-right: 10px;
+}
+.view-result-btn{
+	color: #fff;
+	background: linear-gradient(to right, #fd031b 0%,#ec1a25 49%,#e1292c 51%,#c20a07 100%);
+	border-radius: 5px;
+	padding: 3px 20px;
+	font-size: 18px;
+}
