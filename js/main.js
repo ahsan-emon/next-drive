@@ -1180,11 +1180,9 @@ $('.mainCard.makeCard table td button').click(function(){
 $('.navbar-toggler').click(function(){
     $('.mobileMenu.py-3').addClass('active')
 })
-
 $('.mobileMenuCloser').click(function(){
     $('.mobileMenu.py-3').removeClass('active')
 })
-
 $('.searchBtnn').click(function(){
     $('.searchStock').addClass('active')
 })

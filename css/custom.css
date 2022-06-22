@@ -25,9 +25,6 @@
 .aboutCarContent p {color: rgb(0, 0, 0); margin-right: 20px;}
 .cars-display .card .card-body p { line-height: 15px; }
 .popularReqModel .fa.fa-square { font-size: 8px; }
-@media screen and (min-width: 767px) {
-  .footer .social-desk { display: none; }
-}
 @media screen and (max-width: 2560px) {
   .row.crbtns { height: 1220px; }
   .detTable td{
@@ -311,7 +308,7 @@
   .desktopViewStockBid .bigBtn h4 { font-size: 15px !important; }
   .desktopViewStockBid .bigBtn .fs-5 { font-size: 8px !important; }
   .search-breadcrumb a {
-    font-size: 14px;
+    font-size: 16px;
   }
   .car-title h2 {
     font-size: 25px;
@@ -357,8 +354,9 @@
 }
 @media screen and (min-width: 992px) {
   .bottomRedBorder { display: none; }
+  .footer .social-desk { display: none; }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .header-tops { padding: 0px !important; }
   .currency-codes { display: none; }
   .desktopViewStockBid { display: none; }
@@ -379,6 +377,9 @@
   }
   .hide-mobile { display: none; }
   .show-mobile { display: block; }
+  .hide-flex-mobile{
+    display: none;
+  }
   .wpLink1 {
 		position: fixed;
 		bottom: 50px;
@@ -422,7 +423,168 @@
     right: 15px;
     font-size: 28px;
   }
-
+  .mobile-header-top-container{
+    padding-top: 3px!important;
+    padding-bottom: 3px!important;
+  }
+  .search-mobile-navbar{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .search-mobile-navbar .navbar-brand{
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+  }
+  .search-mobile-container{
+    padding-left: 0px!important;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+  }
+  .car-title h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  .car-search-result{
+    padding: 0;
+  }
+  .search-breadcrumb{
+    margin-bottom: 0;
+  }
+  .car-search-result{
+    margin-top: 5px;
+  }
+  .car-search-result span{
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .car-search-result h1{
+    font-size: 45px;
+  }
+  .current-filter p{
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .mobile-filter-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .mobile-filter-buttons .filter-btn{
+    border: 1px solid #8C8881;
+    width: 25%;
+    border-radius: 5px;
+    color: #292826;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile-filter-buttons .filter-btn i{
+    padding-right: 5px;
+  }
+  .mobile-filter-buttons .form-select{
+    width: 70%;
+    border: 1px solid #8C8881;
+    border-radius: 5px;
+    color: #292826;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 12px;
+  }
+  .mobile-filter-buttons .form-select:focus{
+    box-shadow: none;
+  }
+  .mobile-car-content{
+    padding: 10px 0;
+  }
+  .mobile-car-content h1{
+    color: #292826;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+  }
+  .mobile-car-content h2{
+    color: #1774e6;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+  }
+  .mobile-car-content .search-car-img{
+    border-radius: 12px;
+    width: 100%;
+  }
+  .mobile-car-details .ref-p{
+    margin-bottom: 0;
+    color: #8c8881;
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  .mobile-car-details h3{
+    color: #000;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+  }
+  .vehicle-price P{
+    color: #292826;
+    font-size: 26px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+  }
+  .vehicle-price h1{
+    color: #ff001a;
+    font-size: 45px;
+  }
+  .mobile-best-price-btn{
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    padding-top: 20px;
+  }
+  .mobile-best-price-btn img{
+    box-shadow: 4px 4px 6px #000;
+    border-radius: 3px;
+    width: 100%;
+  }
+  .search-mobile-breadcrumb a{
+      font-size: 19px;
+  }
+  .whatsapp-mobile a {
+    margin: 0;
+    padding: 0;
+  }
+  .mobile-loading-section{
+    background: linear-gradient(to right,  #fb061d 0%,#ef1d26 48%,#ec2128 51%,#d11412 100%);
+    margin-bottom: 60px;
+  }
+  .now-loading-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px 0px;
+  }
+  .now-loading-mobile i{
+    margin: 0;
+    color: #fff;
+    padding-bottom: 15px;
+    font-size: 45px;
+    transform: rotate(-90deg);
+  }
+  .now-loading-mobile h1{
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+  }
 }
 @media screen and (max-width: 980px) {
   .row.crbtns { height: 190px; }
@@ -436,6 +598,38 @@
 @media screen and (max-width: 940px) {
   .row.crbtns { height: 155px; }
 }
+@media screen and (max-width: 875px) {
+  .search-mobile-breadcrumb a{
+    font-size: 17px;
+  }
+  .car-title h2 {
+    font-size: 35px;
+  }
+  .car-search-result h1 {
+    font-size: 40px;
+  }
+  .mobile-car-content h1{
+    font-size: 35px;
+  }
+  .mobile-car-content h2{
+    font-size: 30px;
+  }
+  .mobile-car-details .ref-p{
+    font-size: 22px;
+  }
+  .mobile-car-details h3{
+    font-size: 33px;
+  }
+  .vehicle-price P{
+    font-size: 23px;
+  }
+  .vehicle-price h1{
+    font-size: 40px;
+  }
+  .mobile-filter-buttons .form-select{
+    margin-right: 10px;
+  }
+}
 @media screen and (max-width: 767px) {
   .row.crbtns { height: 150px; }
   .aboutCarContent p {margin-right: 0px;}
@@ -445,15 +639,107 @@
   .hero-slider-pt-1 {
     margin-top: -25px;
   }
+  .mobile-filter-buttons .form-select{
+    margin-right: 6px;
+  }
+  .mobile-modal-body-design .close-btn {
+    position: absolute;
+    top: 8px;
+    right: 30px;
+    padding: 0px 8px;
+    z-index: 99;
+    border-radius: 2px;
+  }
+  .mobile-modal-body-design .pop-up-form .inp label{
+    font-size: 15px;
+  }
+  .mobile-modal-body-design .pop-up-form {
+    width: 90%;
+  }
+  .mobile-modal-body-design .pop-up-get-qoute {
+    font-size: 22px;
+  }
+  .mobile-modal-body-design .pop-up-form label {
+    font-size: 16px;
+  }
+  .mobile-modal-body-design .pop-up-price-btn{
+    padding: 0px 32px !important;
+    font-size: 29px;
+  }
 }
 @media screen and (max-width: 740px) {
   .row.crbtns { height: 140px; }
 }
 @media screen and (max-width: 730px) {
   .row.crbtns { height: 130px; }
+  .search-mobile-breadcrumb a{
+    font-size: 16px;
+  }
+  .car-title h2 {
+    font-size: 33px;
+  }
+  .current-filter p {
+    font-size: 22px;
+  }
+  .car-search-result h1 {
+    font-size: 40px;
+  }
+  .mobile-car-content h1{
+    font-size: 33px;
+  }
+  .mobile-car-content h2{
+    font-size: 27px;
+  }
+  .mobile-car-details .ref-p{
+    font-size: 21px;
+  }
+  .mobile-car-details h3{
+    font-size: 32px;
+  }
+  .vehicle-price P{
+    font-size: 22px;
+  }
+  .vehicle-price h1{
+    font-size: 38px;
+  }
 }
 @media screen and (max-width: 720px) {
   .row.crbtns { height: 120px; }
+}
+@media screen and (max-width: 660px) {
+  .mobile-header-top p {
+    font-size: 15px;
+  }
+  .search-mobile-breadcrumb a{
+    font-size: 16px;
+  }
+  .car-title h2 {
+    font-size: 29px;
+  }
+  .current-filter p {
+    font-size: 21px;
+  }
+  .car-search-result h1 {
+    font-size: 36px;
+  }
+  .mobile-car-content h1{
+    font-size: 29px;
+  }
+  .mobile-car-content h2{
+    font-size: 23px;
+  }
+  .mobile-car-details .ref-p{
+    font-size: 19px;
+  }
+  .mobile-car-details h3{
+    font-size: 27px;
+  }
+  .vehicle-price P{
+    font-size: 20px;
+  }
+  .vehicle-price h1{
+    font-size: 34px;
+  }
 }
 @media screen and (max-width: 590px) {
   .row.crbtns { height: 110px; }
@@ -469,6 +755,42 @@
 }
 @media screen and (max-width: 540px) {
   .row.crbtns { height: 100px; }
+  .search-mobile-breadcrumb a{
+    font-size: 15px;
+  }
+  .car-title h2 {
+    font-size: 27px;
+  }
+  .current-filter p {
+    font-size: 20px;
+  }
+  .car-search-result h1 {
+    font-size: 36px;
+  }
+  .mobile-car-content h1{
+    font-size: 28px;
+  }
+  .mobile-car-content h2{
+    font-size: 20px;
+  }
+  .mobile-car-details .ref-p{
+    font-size: 18px;
+    padding-bottom: 3px;
+  }
+  .mobile-car-details h3{
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .vehicle-price P{
+    font-size: 19px;
+    padding-bottom: 3px;
+  }
+  .vehicle-price h1{
+    font-size: 32px;
+  }
+  .now-loading-mobile {
+    padding: 17px 0px;
+  }
 }
 @media screen and (max-width: 520px) {
   .input-padding {
@@ -476,6 +798,46 @@
   }
   .subscribe-btn{
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .search-mobile-breadcrumb a{
+    font-size: 14px;
+  }
+  .car-title h2 {
+    font-size: 25px;
+  }
+  .current-filter p {
+    font-size: 18px;
+  }
+  .car-search-result h1 {
+    font-size: 35px;
+  }
+  .mobile-car-content h1{
+    font-size: 26px;
+  }
+  .mobile-car-content h2{
+    font-size: 18px;
+  }
+  .mobile-car-details .ref-p{
+    font-size: 16px;
+  }
+  .mobile-car-details h3{
+    font-size: 22px;
+    padding-bottom: 5px;
+  }
+  .vehicle-price P{
+    font-size: 17px;
+    padding-bottom: 3px;
+  }
+  .vehicle-price h1{
+    font-size: 28px;
+  }
+  .mobile-filter-buttons .filter-btn {
+    font-size: 22px;
+  }
+  .mobile-filter-buttons .form-select {
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 489px) {
@@ -498,17 +860,110 @@
   .signup.signup-content img {
     width: 70% !important;
   }
+  .mobile-best-price-btn img {
+    width: 95%;
+  }
+  .whatsapp-mobile a img{
+    width: 95%;
+  }
+  .mobile-header-top p {
+    font-size: 14px;
+  }
+  .search-mobile-breadcrumb a{
+    font-size: 13px;
+  }
+  .car-title h2 {
+    font-size: 23px;
+  }
+  .current-filter p {
+    font-size: 16px;
+  }
+  .car-search-result h1 {
+    font-size: 33px;
+  }
+  .mobile-car-content h1{
+    font-size: 23px;
+  }
+  .mobile-car-content h2{
+    font-size: 17px;
+  }
+  .mobile-car-details .ref-p{
+    font-size: 15px;
+    padding-bottom: 2px;
+  }
+  .mobile-car-details h3{
+    font-size: 18px;
+    padding-bottom: 3px;
+  }
+  .vehicle-price P{
+    font-size: 16px;
+    padding-bottom: 2px;
+  }
+  .vehicle-price h1{
+    font-size: 26px;
+  }
+  .mobile-filter-buttons .filter-btn {
+    font-size: 20px;
+  }
+  .mobile-filter-buttons .form-select {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width: 408px) {
   .cl-py .searchForUsedCarLong { font-size: 14px; margin: 5px 0px !important; }
   .signup.signup-content img {
     width: 75% !important;
   }
+  .mobile-header-top p {
+    font-size: 13px;
+  }
+  .search-mobile-breadcrumb a{
+    font-size: 11px;
+  }
+  .car-title h2 {
+    font-size: 20px;
+  }
+  .current-filter p {
+    font-size: 15px;
+  }
+  .car-search-result h1 {
+    font-size: 30px;
+  }
+  .mobile-car-content h1{
+    font-size: 22px;
+  }
+  .mobile-car-content h2{
+    font-size: 15px;
+  }
+  .mobile-car-details .ref-p{
+    font-size: 14px;
+    padding-bottom: 2px;
+  }
+  .mobile-car-details h3{
+    font-size: 16px;
+    padding-bottom: 3px;
+  }
+  .vehicle-price P{
+    font-size: 15px;
+    padding-bottom: 2px;
+  }
+  .vehicle-price h1{
+    font-size: 23px;
+  }
+  .mobile-filter-buttons .filter-btn {
+    font-size: 16px;
+  }
+  .mobile-filter-buttons .form-select {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 385px) {
   .row.crbtns { height: 70px; }
   .signup.signup-content img {
     width: 80% !important;
+  }
+  .current-filter p {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 368px) {
@@ -517,17 +972,137 @@
   .signup.signup-content img {
     width: 83% !important;
   }
+  .mobile-car-details .ref-p {
+    font-size: 13px;
+    padding-bottom: 0px;
+  }
+  .mobile-car-details h3 {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .vehicle-price P {
+    font-size: 14px;
+    padding-bottom: 0px;
+  }
+  .vehicle-price h1 {
+    font-size: 21px;
+  }
+  .mobile-car-content h2 {
+    font-size: 14px;
+  }
+  .mobile-car-content h1 {
+    font-size: 20px;
+  }
+  .mobile-modal-body-design .pop-up-form label {
+    font-size: 15px;
+  }
+  .mobile-modal-body-design .pop-up-price-btn {
+    padding: 0px 28px !important;
+    font-size: 28px;
+  }
+  .now-loading-mobile h1 {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 355px) {
+  .current-filter p {
+    font-size: 13px;
+  }
+  .car-title h2 {
+    font-size: 18px;
+  }
+  .search-mobile-breadcrumb a {
+    font-size: 10px;
+  }
+  .mobile-best-price-btn img {
+    width: 90%;
+  }
+  .whatsapp-mobile a img {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  .mobile-header-top p {
+    font-size: 12px;
+  }
+  .mobile-modal-body-design .pop-up-price-btn {
+    padding: 0px 25px !important;
+    font-size: 25px;
+  }
+  .mobile-modal-body-design .pop-up-form label {
+    font-size: 13px;
+  }
+  .mobile-modal-body-design .close-btn {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+  }
+  .mobile-modal-body-design .pop-up-get-qoute {
+    font-size: 20px;
+  }
+  .now-loading-mobile h1 {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 340px) {
   .row.crbtns { height: 60px; }
   .signup.signup-content img {
     width: 88% !important;
   }
+  .mobile-car-content h2 {
+    font-size: 13px;
+  }
+  .now-loading-mobile h1 {
+    font-size: 28px;
+  }
+  .mobile-loading-section {
+    margin-bottom: 50px;
+  }
 }
 @media screen and (max-width: 328px) {
   .searchForUsedCarLong { font-size: 10px !important; }
+  .mobile-header-top p {
+    font-size: 11px;
+  }
+  .car-search-result h1 {
+    font-size: 28px;
+  }
+  .search-mobile-breadcrumb a {
+    font-size: 9px;
+  }
+  .car-search-result span {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
   .signup.signup-content img {
     width: 90% !important;
+  }
+  .signup.signup-content img {
+    width: 83% !important;
+  }
+  .mobile-car-details .ref-p {
+    font-size: 11px;
+    padding-bottom: 0px;
+  }
+  .mobile-car-details h3 {
+    font-size: 13px;
+    padding-bottom: 0px;
+  }
+  .vehicle-price P {
+    font-size: 12px;
+    padding-bottom: 0px;
+  }
+  .vehicle-price h1 {
+    font-size: 21px;
+  }
+  .mobile-car-content h2 {
+    font-size: 12px;
+  }
+  .mobile-car-content h1 {
+    font-size: 17px;
+  }
+  .current-filter p {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 288px) {
