@@ -1889,3 +1889,30 @@ td.vam {
     color: #000;
     font-weight: 600;
 }
+.bottom-border-gradient{
+	background: linear-gradient(to right,  #dd2c2d 0%,#dd2c2d 29%,#d5d5d5 31%,#d5d5d5 100%);
+	width: 100%;
+	height: 5px;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.mobileFilterCloser{
+	color: #292826;
+}
+.mobileFilterCloser i{
+	padding-right: 10px;
+	color: #8c8881;
+}
+.mobileFilter.active11 {
+	overflow-y: scroll !important;
+	height: 100%;
+	padding-bottom: 50px !important;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+}
+.mobileFilter.remove11 {
+	display: none;
+}
