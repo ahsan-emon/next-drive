@@ -365,7 +365,7 @@
   .header-tops { padding: 0px !important; }
   .currency-codes { display: none; }
   .desktopViewStockBid { display: none; }
-  .row.crbtns { height: 200px; }
+  .row.crbtns {height: 140px;}
   .table-border { border: none !important; }
   .border { border: 1px solid rgb(214, 214, 214) !important; }
   .row.crbtns {
@@ -416,6 +416,10 @@
   }
   .mobile-banner-design .container-fluid{
     padding: 5px 0!important;
+  }
+  .car-details-navbar-expand{
+    padding-left: 40px!important;
+    padding-right: 25px!important;
   }
 
   /* search car media css start  */
@@ -592,16 +596,16 @@
   }
 }
 @media screen and (max-width: 980px) {
-  .row.crbtns { height: 190px; }
+  .row.crbtns {}
 }
 @media screen and (max-width: 960px) {
-  .row.crbtns { height: 180px; }
+  .row.crbtns {}
 }
 @media screen and (max-width: 950px) {
-  .row.crbtns { height: 160px; }
+  .row.crbtns {}
 }
 @media screen and (max-width: 940px) {
-  .row.crbtns { height: 155px; }
+  .row.crbtns {}
 }
 @media screen and (max-width: 875px) {
   .search-mobile-breadcrumb a{
@@ -636,7 +640,7 @@
   }
 }
 @media screen and (max-width: 767px) {
-  .row.crbtns { height: 150px; }
+  .row.crbtns {height: 100px;}
   .aboutCarContent p {margin-right: 0px;}
   .signup.signup-content img {
     width: 57% !important;
@@ -646,6 +650,9 @@
   }
   .mobile-filter-buttons .form-select{
     margin-right: 6px;
+  }
+  .car-details-navbar-expand{
+    padding-left: 45px!important;
   }
   .mobile-modal-body-design .close-btn {
     position: absolute;
@@ -673,10 +680,10 @@
   }
 }
 @media screen and (max-width: 740px) {
-  .row.crbtns { height: 140px; }
+  .row.crbtns {}
 }
 @media screen and (max-width: 730px) {
-  .row.crbtns { height: 130px; }
+  .row.crbtns {}
   .search-mobile-breadcrumb a{
     font-size: 16px;
   }
@@ -709,7 +716,7 @@
   }
 }
 @media screen and (max-width: 720px) {
-  .row.crbtns { height: 120px; }
+  .row.crbtns {}
 }
 @media screen and (max-width: 660px) {
   .mobile-header-top p {
@@ -747,11 +754,18 @@
   }
 }
 @media screen and (max-width: 590px) {
-  .row.crbtns { height: 110px; }
+  .row.crbtns {}
+  .car-details-navbar-expand{
+    padding-left: 35px!important;
+  }
 }
 @media screen and (max-width: 576px) {
   .input-padding::placeholder {
     font-size: 14px;
+  }
+  .car-details-navbar-expand{
+    padding-left: 15px!important;
+    padding-right: 10px!important;
   }
 }
 @media screen and (max-width: 570px) {
@@ -759,7 +773,7 @@
   .carSearchKeywords button { font-size: 16px !important; }
 }
 @media screen and (max-width: 540px) {
-  .row.crbtns { height: 100px; }
+  .row.crbtns {height: 94px;}
   .search-mobile-breadcrumb a{
     font-size: 15px;
   }
@@ -1050,7 +1064,7 @@
   }
 }
 @media screen and (max-width: 340px) {
-  .row.crbtns { height: 60px; }
+  .row.crbtns {height: 57px;}
   .signup.signup-content img {
     width: 88% !important;
   }
