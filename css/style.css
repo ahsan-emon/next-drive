@@ -441,21 +441,21 @@ a:hover {
 }
 
 .bg-1 {
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bg1.jpg");
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/4.JPG");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .bg-2 {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../img/manufac.jpg");
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("../img/check.JPG");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
 .bg-3 {
-	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/laptop.jpg");
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/GET.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
