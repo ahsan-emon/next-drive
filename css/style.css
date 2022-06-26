@@ -511,7 +511,7 @@ img {
 }
 
 .btn.btn-danger.mt-3.shadow {
-	box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.6) !important;
+	box-shadow: 2px 4px 7px rgb(0 0 0 / 60%);
 }
 
 .btn.btn-danger.mt-3.shadow:hover {
@@ -1150,7 +1150,7 @@ td.vam {
 	.sticky-buttons {
 		display: block;
 		position: fixed;
-		bottom: 50px;
+		bottom: 0;
 		left: 50%;
 		transform: translateX(-52%);
 		z-index: 100;
@@ -1387,8 +1387,10 @@ td.vam {
 
 .ask-for-price-btn {
 	background: linear-gradient(to right, #fc061c 1%, #f31824 49%, #ed2229 51%, #ce0d0b 100%);
-	padding: 6px 35px!important;
+	padding: 0px 30px!important;
 	border-radius: 5px;
+	font-size: 30px;
+	box-shadow: 5px 5px 5px #000000cf !important;
 }
 .desktop-site-btn {
 	background-color: #C20A07;
@@ -1727,8 +1729,8 @@ td.vam {
 }
 .scrollup {
     position: fixed;
-    bottom: 25px;
-    right: 50px;
+    bottom: 5px;
+    right: 25px;
     padding: 0px;
     z-index: 100;
     font-size: 35px;
@@ -1798,7 +1800,7 @@ td.vam {
 	padding: 20px 0px;
 }
 .car-result-show:hover{
-	background-color: #F5F6F6;
+	background-color: #F6F7F7;
 }
 .modal-content-design{
 	background-color: transparent;
@@ -1906,8 +1908,9 @@ td.vam {
 	color: #8c8881;
 }
 .mobileFilter.active11 {
-	overflow-y: scroll !important;
+	/* overflow-y: scroll !important; */
 	height: 100%;
+	width: 100%;
 	padding-bottom: 50px !important;
 	display: block;
 	position: absolute;
@@ -1935,7 +1938,6 @@ td.vam {
 	font-weight: 700;
 }
 .pop-up-price-btn{
-	clip-path: polygon(0 0, 97% 0%, 100% 100%, 3% 100%);
 	background-color: #fff !important;
 	font-weight: 700;
 }
@@ -1989,7 +1991,8 @@ td.vam {
 	font-size: 18px;
 }
 .car-details-sticky-btn{
-	background-color: #f5f6f6e0;
+	background-color: #fff;
+	opacity: 95%;
 }
 .column-height{
 	max-height: 450px;
@@ -2012,4 +2015,19 @@ td.vam {
 	color: #cb0a07;
 	font-size: 50px;
 	font-weight: 700;
+}
+.ask-price-btn-img {
+    width: 45%;
+}
+.ask-price-btn-img:hover {
+    transform: scale(.98);
+}
+.sticky-images-click:hover{
+	transform: scale(.98);
+}
+.best-price-btn:hover{
+	transform: scale(.98);
+}
+.modal-dialog.search-modal{
+	top: 30%;
 }

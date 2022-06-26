@@ -428,8 +428,8 @@
   }
   .scrollup {
     position: fixed;
-    bottom: 20px;
-    right: 15px;
+    bottom: 5px;
+    right: 5px;
     font-size: 28px;
   }
   .mobile-header-top-container{
@@ -751,6 +751,9 @@
   }
   .vehicle-price h1{
     font-size: 34px;
+  }
+  .ask-price-btn-img {
+    width: 50%;
   }
 }
 @media screen and (max-width: 590px) {

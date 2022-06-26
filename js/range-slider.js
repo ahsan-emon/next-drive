@@ -15,18 +15,26 @@ function slideOne(){
     if(parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap){
         sliderOne.value = parseInt(sliderTwo.value) - minGap;
     }
-    displayValOne.textContent = sliderOne.value;
+    try{
+        displayValOne.textContent = sliderOne.value;
+    }
+    catch(err){
+
+    }
     fillColor();
 }
 function slideTwo(){
     if(parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap){
         sliderTwo.value = parseInt(sliderOne.value) + minGap;
     }
-    displayValTwo.textContent = sliderTwo.value;
+    try{
+        displayValTwo.textContent = sliderTwo.value;
+    }
+    catch(err){}
     fillColor();
 }
 function fillColor(){
     percent1 = (sliderOne.value / sliderMaxValue) * 100;
     percent2 = (sliderTwo.value / sliderMaxValue) * 100;
-    sliderTrack.style.background = `linear-gradient(to right, #dadae5 ${percent1}% , #3264fe ${percent1}% , #3264fe ${percent2}%, #dadae5 ${percent2}%)`;
+    sliderTrack.style.background = `#D5D5D5`;
 }
