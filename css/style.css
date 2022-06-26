@@ -2005,17 +2005,6 @@ td.vam {
 .car-details-pakage{
 	font-size: 22px;
 }
-.how-to-buy-nav{
-	margin-top: 0;
-}
-.buy-breadcrumb{
-	padding-top: 0;
-}
-.how-to-buy{
-	color: #cb0a07;
-	font-size: 50px;
-	font-weight: 700;
-}
 .ask-price-btn-img {
     width: 45%;
 }
@@ -2030,4 +2019,64 @@ td.vam {
 }
 .modal-dialog.search-modal{
 	top: 30%;
+}
+
+
+/* how to buy start  */
+.how-to-buy-nav{
+	margin-top: 0;
+}
+.buy-breadcrumb{
+	padding-top: 0;
+}
+.how-to-buy{
+	color: #cb0a07;
+	font-size: 50px;
+	font-weight: 700;
+}
+.img-div{
+	position: relative;
+}
+.img-div img{
+	width: 40%;
+}
+.buy-search-stock-btn{
+	position: absolute;
+	top: 47%;
+	left: 10.5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 4px;
+	border: 2px solid #E7E7E7;
+}
+.buy-search-stock-btn i{
+	color: #E10000;
+}
+.buy-search-stock-btn .fa-car-rear{
+	font-size: 18px;
+}
+.buy-search-stock-btn .fa-circle-chevron-righ{
+	font-size: 15px;
+}
+.buy-search-stock-btn h4{
+	margin-bottom: 0;
+	font-size: 10px;
+	padding: 0 6px;
+	font-weight: 700;
+}
+.content-step-1 p{
+    color: #000;
+    font-size: 22px;
+}
+.content-step-1 ul li{
+    color: #000;
+    font-size: 22px;
+}
+.content-step-1 ul li .marked-line{
+    display: inline-block;
+    background-color: #F6EC3C;
+    padding: 2px 18px;
+    clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
+	margin-left: -18px;
 }
