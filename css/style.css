@@ -2002,3 +2002,14 @@ td.vam {
 .car-details-pakage{
 	font-size: 22px;
 }
+.how-to-buy-nav{
+	margin-top: 0;
+}
+.buy-breadcrumb{
+	padding-top: 0;
+}
+.how-to-buy{
+	color: #cb0a07;
+	font-size: 50px;
+	font-weight: 700;
+}
