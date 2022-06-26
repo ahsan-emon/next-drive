@@ -1469,7 +1469,7 @@ td.vam {
     background: #DF2C2D!important;
     color: white!important;
     border: 2px solid #C20A07!important;
-    border-radius: 3px!important;
+    border-radius: 0px;
     font-size: 16px!important;
     font-weight: 700!important;
     margin-bottom: 10px!important;
@@ -2031,13 +2031,15 @@ td.vam {
 }
 .how-to-buy{
 	color: #cb0a07;
-	font-size: 50px;
-	font-weight: 700;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 27px;
 }
-.img-div{
+.img-div1{
 	position: relative;
+	margin-top: 10px;
 }
-.img-div img{
+.img-div1 img{
 	width: 40%;
 }
 .buy-search-stock-btn{
@@ -2065,13 +2067,14 @@ td.vam {
 	padding: 0 6px;
 	font-weight: 700;
 }
-.content-step-1 p{
+.content-step p{
     color: #000;
-    font-size: 22px;
+    font-size: 20px;
+	margin: 20px 0;
 }
 .content-step-1 ul li{
     color: #000;
-    font-size: 22px;
+    font-size: 20px;
 }
 .content-step-1 ul li .marked-line{
     display: inline-block;
@@ -2079,4 +2082,174 @@ td.vam {
     padding: 2px 18px;
     clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
 	margin-left: -18px;
+}
+.content-step-2 table{
+	border: 2px solid #5D5D5D;
+}
+.content-step-2 table tr{
+	border-left: 2px solid #5D5D5D;
+	border-right: 2px solid #5D5D5D;
+}
+.content-step-2 table td{
+	border-right: 2px solid #5D5D5D;
+	color: #000;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.content-step-2 table th{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 600;
+	border: 2px solid #5D5D5D;
+}
+.content-step-2 table tbody{
+	vertical-align: initial;
+}
+.step-border{
+	width: 100%;
+	height: 5px;
+	background-color: #E82C2C;
+	margin: 40px 0;
+}
+.account-number{
+	width: 29%;
+}
+.img-div3{
+	margin-top: 30px;
+}
+.img-div3 img{
+	width: 35%;
+}
+.buy-wp-btn img{
+	box-shadow: 5px 5px 5px #000000a3;
+    border-radius: 6px;
+	margin: 50px 0 30px 0;
+}
+.buy-wp-btn img:hover{
+	transform: scale(.98);
+}
+.pdf-link{
+	color: #3A6BCD;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+}
+.pdf-link img{
+	width: 20px;
+}
+.buy-link{
+	color: #3A6BCD;
+	font-size: 20px;
+}
+.img-div2{
+	position: relative;
+	margin-top: 50px;
+}
+.img-div2 .draw-buy-car{
+	position: absolute;
+    top: -15%;
+    left: 25%;
+    width: 20%;
+}
+.steps-line{
+	display: flex;
+	align-items: center;
+	background-color: #F4F5F5;
+}
+.steps-line .step-box{
+	color: #fff;
+	padding-right: 10px;
+	background-color: #E72C2D;
+	clip-path: polygon(0% 0%, 92% 0%, 100% 50%, 92% 100%, 0% 100%);
+	margin-right: 12px;
+}
+.steps-line .step-box h3{
+	padding: 6px 25px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 20px;
+	background-color: #CA0A07;
+	margin-bottom: 0;
+	clip-path: polygon(0% 0%, 92% 0%, 100% 50%, 92% 100%, 0% 100%);
+}
+.steps-line h1{
+	margin-bottom: 0px;
+	font-size: 27px;
+	font-weight: 600;
+	color: #292826;
+}
+
+#triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-left: 100px solid red;
+	border-bottom: 50px solid transparent;
+}
+.img-div4{
+    margin-top: 15px;
+}
+.steps-btn{
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.steps-btn .btn-steps{
+	clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0% 100%, 5% 50%, 0% 0%);
+	width: 25%;
+	height: 100px;
+	padding: 15px 30px 10px 30px;
+}
+.steps-btn .btn-steps .steps-text{
+	padding: 0px 15px;
+	font-size: 18px;
+	display: inline-block;
+	border-radius: 3px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+.steps-btn .btn-steps .steps-title{
+	font-size: 28px;
+	color: #f5f6f6;
+}
+.steps-btn .btn-step1{
+	background-color: #CA0A07;
+	color: #fff;
+}
+.steps-btn .btn-step1 .step-1-text{
+	color: #CA0A07;
+	background-color: #fff;
+}
+.steps-btn .btn-step2{
+	background-color: #E72B2C;
+	color: #fff;
+	padding-left: 40px;
+}
+.steps-btn .btn-step2 .step-2-text{
+	color: #e72c2d;
+	background-color: #fff;
+}
+.steps-btn .btn-step3{
+	background-color: #F85252;
+	color: #fff;
+	padding-left: 60px;
+}
+.steps-btn .btn-step3 .step-3-text{
+	color: #f95353;
+	background-color: #fff;
+}
+.steps-btn .btn-step4{
+	background-color: #F87575;
+	color: #fff;
+	text-align: center;
+}
+.steps-btn .btn-step4 .step-4-text{
+	color: #f97575;
+	background-color: #fff;
+}
+.accordion-button:focus{
+	box-shadow: none;
 }
