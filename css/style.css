@@ -1724,6 +1724,9 @@ td.vam {
 .whatsapp-link{
 	margin: 10px 0 20px 0;
 }
+.whatsapp-link img {
+    width: 30%;
+}
 .checked-car-show{
 	margin-bottom: 20px;
 }
@@ -2252,4 +2255,7 @@ td.vam {
 }
 .accordion-button:focus{
 	box-shadow: none;
+}
+.wpLink{
+	/* width: 90%; */
 }
