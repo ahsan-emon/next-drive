@@ -2043,7 +2043,7 @@ td.vam {
 	margin-top: 10px;
 }
 .img-div1 img{
-	width: 40%;
+	width: 55%;
 }
 .buy-search-stock-btn{
 	position: absolute;
@@ -2123,7 +2123,7 @@ td.vam {
 	margin-top: 30px;
 }
 .img-div3 img{
-	width: 35%;
+	width: 45%;
 }
 .buy-wp-btn img{
 	box-shadow: 5px 5px 5px #000000a3;
@@ -2152,9 +2152,9 @@ td.vam {
 }
 .img-div2 .draw-buy-car{
 	position: absolute;
-    top: -15%;
-    left: 25%;
-    width: 20%;
+	top: -5%;
+	left: 38%;
+	width: 20%;
 }
 .steps-line{
 	display: flex;
@@ -2255,7 +2255,4 @@ td.vam {
 }
 .accordion-button:focus{
 	box-shadow: none;
-}
-.wpLink{
-	/* width: 90%; */
 }

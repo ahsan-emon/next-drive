@@ -76,8 +76,8 @@
   .row.crbtns { height: 985px; }
   .buy-search-stock-btn {
     position: absolute;
-    top: 47%;
-    left: 10.5%;
+    top: 49%;
+    left: 16.5%;
   }
   .buy-search-stock-btn h4 {
     font-size: 15px;
@@ -103,8 +103,8 @@
   .row.crbtns { height: 890px; }
   .buy-search-stock-btn {
     position: absolute;
-    top: 47%;
-    left: 10.5%;
+    top: 49%;
+    left: 16.5%;
   }
   .buy-search-stock-btn h4 {
     font-size: 13px;
@@ -127,8 +127,8 @@
   .row.crbtns { height: 820px; }
   .buy-search-stock-btn {
     position: absolute;
-    top: 47%;
-    left: 10.5%;
+    top: 48%;
+    left: 16.5%;
   }
   .buy-search-stock-btn h4 {
     font-size: 11px;
@@ -150,11 +150,11 @@
 @media screen and (max-width: 1600px) {
   .row.crbtns { height: 740px; }
   .buy-search-stock-btn h4 {
-    font-size: 10px;
+    font-size: 12px;
     padding: 0px 5px;
   }
   .buy-search-stock-btn .fa-car-rear{
-    font-size: 22px;
+    font-size: 24px;
   }
   .buy-search-stock-btn .fa-circle-chevron-right{
     font-size: 16px;
@@ -231,17 +231,20 @@
     padding: 10px;
   }
   .img-div1 img{
-    width: 45%;
+    width: 50%;
+  }
+  .img-div3 img{
+    width: 50%;
   }
   .buy-search-stock-btn {
     position: absolute;
     top: 47%;
-    left: 12%;
+    left: 13.5%;
   }
   .img-div2 .draw-buy-car {
     position: absolute;
-    top: -22%;
-    left: 26%;
+    top: -20%;
+    left: 30%;
     width: 28%;
   }
   .steps-btn .btn-steps {
@@ -353,7 +356,7 @@
   .buy-search-stock-btn {
     position: absolute;
     top: 47%;
-    left: 12%;
+    left: 14%;
   }
   .buy-search-stock-btn h4 {
     font-size: 9px;
@@ -415,7 +418,7 @@
     margin-bottom: 32px;
   }
   .steps-btn .btn-steps .steps-title {
-    font-size: 23px;
+    font-size: 22px;
   }
   .steps-btn .btn-steps .steps-text {
     font-size: 15px;
@@ -478,7 +481,8 @@
     font-size: 14px;
   }
   .steps-btn .btn-steps .steps-title {
-    font-size: 22px;
+    font-size: 25px;
+    padding-top: 3px;
   }
   .steps-btn .btn-steps {
     padding: 8px 15px 2px 25px;
@@ -507,6 +511,12 @@
   }
   .price-details button img{
     width: 80%;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .steps-btn .btn-steps .steps-title {
+    font-size: 22px;
+    padding-top: 0px;
   }
 }
 @media screen and (max-width: 1078px) {
@@ -565,6 +575,9 @@
   }
   .price-details button img{
     width: 75%;
+  }
+  .steps-btn .btn-steps .steps-title {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -1031,12 +1044,6 @@
     padding: 0px 32px !important;
     font-size: 29px;
   }
-  .img-div1 img{
-    width: auto;
-  }
-  .img-div3 img {
-    width: 45%;
-  }
   .buy-search-stock-btn {
     position: absolute;
     top: 50%;
@@ -1060,6 +1067,7 @@
   }
   .steps-btn .btn-steps {
     height: 315px;
+    clip-path: polygon(93% 0, 100% 50%, 93% 100%, 0% 100%, 7% 50%, 0% 0%);
   }
   .buy-search-menu-stock-btn {
     position: absolute;
@@ -1069,6 +1077,12 @@
   }
   .whatsapp-link img {
     width: 39%;
+  }
+  .img-div1 img {
+    width: 100%;
+  }
+  .img-div3 img {
+    width: 75%;
   }
 }
 @media screen and (max-width: 730px) {
@@ -1171,6 +1185,10 @@
   }
   .steps-btn .btn-steps {
     height: 245px;
+  }
+  .steps-btn .btn-steps .steps-title {
+    font-size: 31px;
+    padding-top: 3px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -1414,7 +1432,7 @@
     height: 185px;
   }
   .steps-btn .btn-steps .steps-title {
-    font-size: 16px;
+    font-size: 25px;
     line-height: 18px;
   }
   .steps-btn .btn-steps .steps-text {
