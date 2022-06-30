@@ -1621,6 +1621,12 @@
     font-size: 19px;
     line-height: 18px;
   }
+  .blogsMobile .fs-18 {
+    padding-left: 10px;
+  }
+  .img-fluid.card-img-top.h100 {
+    transform: scale(1.5);
+  }
 }
 @media screen and (max-width: 355px) {
   .current-filter p {
