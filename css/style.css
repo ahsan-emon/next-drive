@@ -2258,21 +2258,53 @@ td.vam {
 }
 /* bid car start  */
 .bid-car-first-content{
-	margin-bottom: 20px;
+	margin-bottom: 40px;
+	padding: 0 50px 0 15px;
 }
 .bid-car-first-content h1{
-	font-size: 60px;
+	font-size: 70px;
 	color: #ca0a07;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	font-weight: 600;
 	letter-spacing: 3px;
 }
-.bid-car-first-content h3{
-	color: #292826;
-	font-size: 30px;
-	font-weight: 500;
+.bid-car-first-content h3 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 .bid-car-first-content p{
 	color: #000;
-	font-size: 16px;
+	font-size: 18px;
+	font-weight: 600;
+}
+.steps-line .bid-step-title{
+	margin-bottom: 0px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+.bid-ontent-step{
+	padding: 20px 50px 40px 40px;
+}
+.bid-ontent-step p{
+	color: #000;
+	font-size: 18px;
+	margin-bottom: 0;
+	font-weight: 500;
+}
+.bid-ontent-step p span{
+	color: #3a6bcd;
+	font-size: 18px;
+}
+.bid-ontent-step .p-small-text{
+	font-size: 15px;
+	font-weight: 100;
+}
+.bid-ontent-step .bid-link{
+	font-size: 18px;
+	font-weight: 100;
+	color: #3a6bcd;
+	font-weight: 500;
 }
