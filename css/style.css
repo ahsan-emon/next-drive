@@ -2256,3 +2256,23 @@ td.vam {
 .accordion-button:focus{
 	box-shadow: none;
 }
+/* bid car start  */
+.bid-car-first-content{
+	margin-bottom: 20px;
+}
+.bid-car-first-content h1{
+	font-size: 60px;
+	color: #ca0a07;
+	margin-bottom: 10px;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+.bid-car-first-content h3{
+	color: #292826;
+	font-size: 30px;
+	font-weight: 500;
+}
+.bid-car-first-content p{
+	color: #000;
+	font-size: 16px;
+}
