@@ -2269,9 +2269,9 @@ td.vam {
 	letter-spacing: 3px;
 }
 .bid-car-first-content h3 {
-    color: #000;
-    font-size: 32px;
-    font-weight: 500;
+    font-size: 35px;
+    font-weight: 600;
+    color: #292826;
     margin-bottom: 10px;
 }
 .bid-car-first-content p{
@@ -2292,7 +2292,7 @@ td.vam {
 	color: #000;
 	font-size: 18px;
 	margin-bottom: 0;
-	font-weight: 500;
+	font-weight: 600;
 }
 .bid-ontent-step p span{
 	color: #3a6bcd;
@@ -2306,5 +2306,5 @@ td.vam {
 	font-size: 18px;
 	font-weight: 100;
 	color: #3a6bcd;
-	font-weight: 500;
+	font-weight: 600;
 }

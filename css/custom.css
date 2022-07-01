@@ -309,6 +309,35 @@
     color: #292826;
     font-size: 18px;
   }
+  /* bid car content  */
+  .bid-car-first-content h1{
+    font-size: 65px;
+    letter-spacing: 3px;
+  }
+  .bid-car-first-content h3 {
+    font-size: 32px;
+  }
+  .bid-car-first-content p{
+    font-size: 17px;
+  }
+  .steps-line .bid-step-title{
+      font-size: 20px;
+  }
+  .bid-ontent-step{
+    padding: 20px 50px 40px 40px;
+  }
+  .bid-ontent-step p{
+    font-size: 17px;
+  }
+  .bid-ontent-step p span{
+    font-size: 17px;
+  }
+  .bid-ontent-step .p-small-text{
+    font-size: 15px;
+  }
+  .bid-ontent-step .bid-link{
+    font-size: 17px;
+  }
 }
 @media screen and (max-width: 1270px) {
   .desktopViewStockBid .bigBtn .fs-5 { font-size: 11px !important; }
@@ -373,6 +402,10 @@
   }
   .account-number{
     width: 34%;
+  }
+  .bid-car-first-content h1{
+    font-size: 60px;
+    letter-spacing: 3px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -463,6 +496,35 @@
   .row.crbtns { height: 560px; }
   .header-op-btn { font-size: 12px !important; }
   .header-op-btn span i { font-size: 12px !important; }
+  /* bid content  */
+  .bid-car-first-content h1{
+    font-size: 55px;
+    letter-spacing: 3px;
+  }
+  .bid-car-first-content h3 {
+    font-size: 28px;
+  }
+  .bid-car-first-content p{
+    font-size: 16px;
+  }
+  .steps-line .bid-step-title{
+      font-size: 20px;
+  }
+  .bid-ontent-step{
+    padding: 20px 40px 35px 35px;
+  }
+  .bid-ontent-step p{
+    font-size: 17px;
+  }
+  .bid-ontent-step p span{
+    font-size: 17px;
+  }
+  .bid-ontent-step .p-small-text{
+    font-size: 15px;
+  }
+  .bid-ontent-step .bid-link{
+    font-size: 17px;
+  }
 }
 @media screen and (max-width: 1140px) {
   .header-op-btn { font-size: 11px !important; }
@@ -540,6 +602,34 @@
   }
   .buy-search-stock-btn .fa-circle-chevron-right {
     font-size: 10px;
+  }
+  .bid-car-first-content h1{
+    font-size: 48px;
+    letter-spacing: 3px;
+  }
+  .bid-car-first-content h3 {
+    font-size: 26px;
+  }
+  .bid-car-first-content p{
+    font-size: 16px;
+  }
+  .steps-line .bid-step-title{
+      font-size: 19px;
+  }
+  .bid-ontent-step{
+    padding: 20px 40px 35px 30px;
+  }
+  .bid-ontent-step p{
+    font-size: 16px;
+  }
+  .bid-ontent-step p span{
+    font-size: 16px;
+  }
+  .bid-ontent-step .p-small-text{
+    font-size: 14px;
+  }
+  .bid-ontent-step .bid-link{
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 1080px) {
@@ -931,6 +1021,42 @@
     background-color: #c20a07;
     padding-left: 3px;
   }
+  /* bid car content  */
+  .bid-car-first-content h1{
+    font-size: 70px;
+  }
+  .bid-car-first-content h3 {
+    font-size: 50px;
+  }
+  .bid-car-first-content p{
+    font-size: 18px;
+  }
+  .steps-line .bid-step-title{
+      font-size: 22px;
+  }
+  .bid-ontent-step {
+    padding: 18px 20px 40px 20px;
+  }
+  .bid-ontent-step p{
+    font-size: 18px;
+  }
+  .bid-ontent-step p span{
+    font-size: 18px;
+  }
+  .bid-ontent-step .p-small-text{
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .bid-ontent-step .bid-link{
+    font-size: 18px;
+  }
+  .buy-wp-btn.bid-wp-btn img {
+    margin: 0px 0 60px 0;
+  }
+  .bid-car-first-content {
+    margin-bottom: 50px;
+    padding: 0px 25px 0 15px;
+  }
 }
 @media screen and (max-width: 900px) {
   .buy-search-menu-stock-btn{
@@ -1169,6 +1295,9 @@
     left: 70%;
     width: 35%;
   }
+  .bid-car-first-content h1 {
+    font-size: 65px;
+  }
 }
 @media screen and (max-width: 590px) {
   .car-details-navbar-expand{
@@ -1206,6 +1335,12 @@
 @media screen and (max-width: 570px) {
   .searchForUsedCar { font-size: 20px; }
   .carSearchKeywords button { font-size: 16px !important; }
+  .bid-car-first-content h1 {
+    font-size: 60px;
+  }
+  .bid-car-first-content h3 {
+    font-size: 46px;
+  }
 }
 @media screen and (max-width: 540px) {
   .row.crbtns {height: 94px;}
@@ -1277,6 +1412,12 @@
   .top-bar-header p{
     font-size: 14px !important;
   }
+  .bid-car-first-content h1 {
+    font-size: 55px;
+  }
+  .bid-car-first-content h3 {
+    font-size: 45px;
+  }
 }
 @media screen and (max-width: 500px) {
   .search-mobile-breadcrumb a{
@@ -1344,6 +1485,28 @@
   .top-bar-header p{
     font-size: 13px !important;
   }
+  .bid-car-first-content h1 {
+    font-size: 50px;
+  }
+  .bid-car-first-content h3 {
+    font-size: 40px;
+  }
+  .bid-car-first-content p {
+    font-size: 17px;
+  }
+  .bid-ontent-step p {
+    font-size: 17px;
+  }
+  .bid-ontent-step .p-small-text {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  .bid-ontent-step .bid-link{
+    font-size: 17px;
+  }
+  .bid-ontent-step p span {
+    font-size: 17px;
+  }
 }
 @media screen and (max-width: 475px) {
   .signup.signup-content img {
@@ -1359,6 +1522,9 @@
   }
   .steps-btn .btn-steps {
     height: 200px;
+  }
+  .steps-line .bid-step-title {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 449px) {
@@ -1466,6 +1632,27 @@
   .top-bar-header p{
     font-size: 12px !important;
   }
+  .bid-car-first-content h1 {
+    font-size: 43px;
+  }
+  .bid-car-first-content h3 {
+    font-size: 36px;
+  }
+  .bid-car-first-content p {
+    font-size: 16px;
+  }
+  .bid-ontent-step p {
+    font-size: 16px;
+  }
+  .bid-ontent-step p span {
+    font-size: 16px;
+  }
+  .steps-line .bid-step-title {
+    font-size: 18px;
+  }
+  .steps-line .step-box h3 {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 408px) {
   .cl-py .searchForUsedCarLong { font-size: 14px; margin: 5px 0px !important; }
@@ -1542,6 +1729,30 @@
   .top-bar-header p{
     font-size: 11px !important;
   }
+  .bid-car-first-content h1 {
+    font-size: 40px;
+  }
+  .bid-car-first-content h3 {
+    font-size: 34px;
+  }
+  .steps-line .bid-step-title {
+    font-size: 16px;
+  }
+  .steps-line .step-box h3 {
+    font-size: 16px;
+  }
+  .bid-car-first-content p {
+    font-size: 15px;
+  }
+  .bid-ontent-step p {
+    font-size: 15px;
+  }
+  .bid-ontent-step p span {
+    font-size: 15px;
+  }
+  .bid-ontent-step .bid-link {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 385px) {
   .row.crbtns { height: 70px; }
@@ -1560,6 +1771,12 @@
   .steps-btn .btn-steps .steps-title {
     font-size: 23px;
     line-height: 18px;
+  }
+  .bid-car-first-content h1 {
+    font-size: 35px;
+  }
+  .bid-car-first-content h3 {
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 368px) {
@@ -1627,6 +1844,25 @@
   .img-fluid.card-img-top.h100 {
     transform: scale(1.5);
   }
+  .steps-line .bid-step-title {
+    font-size: 15px;
+  }
+  .bid-step .steps-line .step-box h3{
+    font-size: 15px;
+    padding: 6px 20px;
+  }
+  .bid-ontent-step p {
+    font-size: 14px;
+  }
+  .bid-car-first-content p {
+    font-size: 14px;
+  }
+  .bid-ontent-step p span {
+    font-size: 14px;
+  }
+  .bid-ontent-step .bid-link {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 355px) {
   .current-filter p {
@@ -1675,6 +1911,15 @@
   }
   .top-bar-header p{
     font-size: 10px !important;
+  }
+  .bid-car-first-content h1 {
+    font-size: 32px;
+  }
+  .bid-car-first-content h3 {
+    font-size: 28px;
+  }
+  .bid-step .steps-line .step-box h3{
+    padding: 6px 18px;
   }
 }
 @media screen and (max-width: 340px) {
@@ -1748,6 +1993,45 @@
   }
   .whatsapp-mobile a img {
     width: 80%;
+  }
+  .bid-step .steps-line .step-box h3{
+    padding: 6px 15px;
+  }
+  .bid-step .steps-line .step-box {
+    padding-right: 6px;
+  }
+  .bid-car-first-content h1 {
+    font-size: 30px;
+  }
+  .bid-car-first-content h3 {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 315px) {
+  .bid-car-first-content h1 {
+    font-size: 27px;
+  }
+  .bid-car-first-content h3 {
+    font-size: 25px;
+  }
+  .bid-car-first-content p {
+    font-size: 13px;
+  }
+  .steps-line .bid-step-title {
+    font-size: 14px;
+  }
+  .bid-step .steps-line .step-box h3 {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+  .bid-ontent-step p {
+    font-size: 13px;
+  }
+  .bid-ontent-step p span {
+    font-size: 13px;
+  }
+  .bid-ontent-step .bid-link {
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 288px) {
