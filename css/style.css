@@ -600,8 +600,8 @@ td.vam {
 }
 
 .mainCard {
-	height: 70vh;
-	overflow-y: scroll !important;
+	/* height: 70vh;
+	overflow-y: scroll !important; */
 }
 
 .mobile {
@@ -616,12 +616,28 @@ td.vam {
 	/* width: 100%; */
 	margin-bottom: 10px;
 }
+.mainCard.makeCard .makeBtn {
+	color: #144976;
+}
+.mainCard.makeCard .view .btnsMake .modelBtn label{
+	color: #144976;
+}
+.mainCard.makeCard .view h3{
+	color: #8E8A83;
+}
 
 .mainCard.makeCard table td button.active {
 	width: 100%;
-	background: red;
-	color: white;
-	margin-bottom: 10px;
+    background: #FDE9E9;
+    color: #CE0D0B;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: start;
+    border-radius: 24px;
+}
+.scroll-card{
+	height: 70vh;
+    overflow-y: scroll !important;
 }
 
 /* .table.detTable td {
@@ -2277,7 +2293,6 @@ td.vam {
 .bid-car-first-content p{
 	color: #000;
 	font-size: 18px;
-	font-weight: 600;
 }
 .steps-line .bid-step-title{
 	margin-bottom: 0px;
@@ -2292,7 +2307,6 @@ td.vam {
 	color: #000;
 	font-size: 18px;
 	margin-bottom: 0;
-	font-weight: 600;
 }
 .bid-ontent-step p span{
 	color: #3a6bcd;
